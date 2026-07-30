@@ -587,42 +587,28 @@ nav ul li a:hover{
 
 
 
-/* ===============================
-   GALLERY
-================================ */
-
-
 .gallery{
-
     padding:70px 0;
-
+    background:#f8f9fa;
 }
-
 
 .gallery-grid{
-
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:20px;
-
 }
-
 
 .gallery-grid img{
-
     width:100%;
-    height:220px;
+    height:250px;
     object-fit:cover;
-    border-radius:12px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
     transition:.3s;
-
 }
 
-
 .gallery-grid img:hover{
-
     transform:scale(1.05);
-
 }
 
 
