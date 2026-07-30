@@ -1,26 +1,92 @@
-// Jan Jagriti Secondary School Website
+// ===============================
+// JANA JAGRITI SECONDARY SCHOOL
+// MAIN JAVASCRIPT
+// ===============================
 
-console.log("Website Loaded Successfully!");
 
-const navLinks = document.querySelectorAll("nav a");
+// Mobile Menu
 
-navLinks.forEach(link => {
-    link.addEventListener("mouseenter", () => {
-        link.style.transition = "0.3s";
+const menuBtn = document.querySelector(".menu-btn");
+const nav = document.querySelector("nav");
+
+
+if(menuBtn){
+
+    menuBtn.addEventListener("click",()=>{
+
+        nav.classList.toggle("active");
+
     });
-});
 
-// Smooth scrolling for internal links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function (e) {
-        e.preventDefault();
+}
 
-        const target = document.querySelector(this.getAttribute("href"));
 
-        if (target) {
+
+// Smooth scrolling
+
+document.querySelectorAll('a[href^="#"]').forEach(link=>{
+
+    link.addEventListener("click",function(e){
+
+        const target=document.querySelector(this.getAttribute("href"));
+
+        if(target){
+
+            e.preventDefault();
+
             target.scrollIntoView({
-                behavior: "smooth"
+                behavior:"smooth"
             });
+
         }
+
     });
+
 });
+
+
+
+
+// Animation on scroll
+
+const sections=document.querySelectorAll("section");
+
+
+window.addEventListener("scroll",()=>{
+
+
+sections.forEach(section=>{
+
+
+    let position=section.getBoundingClientRect().top;
+
+
+    let screen=window.innerHeight;
+
+
+    if(position < screen - 100){
+
+        section.style.opacity="1";
+        section.style.transform="translateY(0)";
+
+    }
+
+
+});
+
+
+});
+
+
+
+
+// Current year in footer
+
+const year=document.querySelector(".year");
+
+
+if(year){
+
+    year.innerHTML=new Date().getFullYear();
+
+}
