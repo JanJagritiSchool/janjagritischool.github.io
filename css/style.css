@@ -289,3 +289,356 @@ nav ul li a:hover{
     background:#d18b00;
 
 }
+/* ===============================
+   QUICK ACCESS
+================================ */
+
+.quick-access{
+    padding:50px 0;
+    background:#f5f8fc;
+}
+
+
+.quick-grid{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:20px;
+}
+
+
+.quick-card{
+
+    background:white;
+    padding:25px 15px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:.3s;
+
+}
+
+
+.quick-card i{
+
+    font-size:35px;
+    color:#003366;
+    margin-bottom:10px;
+
+}
+
+
+.quick-card:hover{
+
+    transform:translateY(-8px);
+    background:#003366;
+    color:white;
+
+}
+
+
+.quick-card:hover i{
+
+    color:#ffd700;
+
+}
+
+
+
+
+/* ===============================
+   WELCOME SECTION
+================================ */
+
+
+.welcome{
+
+    padding:60px 0;
+    text-align:center;
+
+}
+
+
+.welcome h2{
+
+    color:#003366;
+    font-size:35px;
+    margin-bottom:20px;
+
+}
+
+
+.welcome p{
+
+    max-width:900px;
+    margin:15px auto;
+    font-size:17px;
+
+}
+
+
+
+
+
+/* ===============================
+   PRINCIPAL SECTION
+================================ */
+
+
+.principal{
+
+    padding:70px 0;
+    background:#f5f8fc;
+
+}
+
+
+.principal-grid{
+
+    display:grid;
+    grid-template-columns:350px 1fr;
+    gap:50px;
+    align-items:center;
+
+}
+
+
+.principal-image img{
+
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+}
+
+
+
+.principal-text h2{
+
+    color:#003366;
+    font-size:35px;
+
+}
+
+
+
+.principal-text h3{
+
+    color:#d18b00;
+    margin:10px 0;
+
+}
+
+
+
+
+
+/* ===============================
+   VISION MISSION
+================================ */
+
+
+.vision{
+
+    padding:60px 0;
+
+}
+
+
+
+.vision-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+
+}
+
+
+
+.vision-card{
+
+    background:white;
+    padding:30px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+
+
+.vision-card i{
+
+    font-size:40px;
+    color:#003366;
+
+}
+
+
+
+.vision-card h3{
+
+    margin:15px 0;
+    color:#d18b00;
+
+}
+
+
+
+
+/* ===============================
+   ACADEMIC PROGRAMS
+================================ */
+
+
+.academics{
+
+    padding:70px 0;
+    background:#f5f8fc;
+
+}
+
+
+
+.section-title{
+
+    text-align:center;
+    color:#003366;
+    font-size:35px;
+    margin-bottom:40px;
+
+}
+
+
+
+.program-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+
+}
+
+
+
+.program-card{
+
+    background:white;
+    padding:30px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+
+}
+
+
+
+.program-card i{
+
+    font-size:40px;
+    color:#003366;
+
+}
+
+
+
+.program-card h3{
+
+    margin-top:15px;
+
+}
+
+
+
+.program-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+
+/* ===============================
+   WHY CHOOSE US
+================================ */
+
+
+.why-us{
+
+    padding:70px 0;
+
+}
+
+
+
+.feature-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+
+}
+
+
+
+.feature-card{
+
+    background:#003366;
+    color:white;
+    padding:30px;
+    text-align:center;
+    border-radius:15px;
+
+}
+
+
+
+.feature-card i{
+
+    font-size:40px;
+    color:#ffd700;
+
+}
+
+
+
+/* ===============================
+   STATISTICS
+================================ */
+
+
+.statistics{
+
+    padding:60px 0;
+    background:#003366;
+    color:white;
+
+}
+
+
+
+.stats-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    text-align:center;
+
+}
+
+
+
+.stat h2{
+
+    font-size:40px;
+    color:#ffd700;
+
+}
+
+
+.stat p{
+
+    font-size:18px;
+
+}
