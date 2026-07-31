@@ -897,6 +897,25 @@ ul{
 
 }
 /*==============================
+ FACILITY ICONS
+==============================*/
+
+.facility-card i{
+
+    font-size:45px;
+    color:var(--secondary);
+    margin-bottom:15px;
+
+}
+
+
+
+.facility-card:hover i{
+
+    color:#fff;
+
+}
+/*==============================
   NOTICE SECTION
 ==============================*/
 
