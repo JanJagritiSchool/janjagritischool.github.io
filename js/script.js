@@ -1,73 +1,132 @@
+/*========================================
+JAN JAGRITI SECONDARY SCHOOL
+Official Website JavaScript
+PART 1
+========================================*/
+
+
 // ===============================
-// JANA JAGRITI SECONDARY SCHOOL
-// MAIN JAVASCRIPT
+// HERO IMAGE SLIDER
 // ===============================
 
 
-// Mobile Menu
+const slides = document.querySelectorAll(".slide");
 
-const menuBtn = document.querySelector(".menu-btn");
-const nav = document.querySelector("nav");
+let currentSlide = 0;
 
 
-if(menuBtn){
 
-    menuBtn.addEventListener("click",()=>{
+function changeSlide(){
 
-        nav.classList.toggle("active");
 
-    });
+    slides[currentSlide].classList.remove("active");
+
+
+    currentSlide++;
+
+
+    if(currentSlide >= slides.length){
+
+        currentSlide = 0;
+
+    }
+
+
+    slides[currentSlide].classList.add("active");
+
 
 }
 
 
 
-// Smooth scrolling
+setInterval(changeSlide,5000);
 
-document.querySelectorAll('a[href^="#"]').forEach(link=>{
 
-    link.addEventListener("click",function(e){
 
-        const target=document.querySelector(this.getAttribute("href"));
 
-        if(target){
 
-            e.preventDefault();
 
-            target.scrollIntoView({
-                behavior:"smooth"
-            });
 
-        }
+// ===============================
+// MOBILE MENU
+// ===============================
 
-    });
+
+const menuBtn = document.querySelector(".menu-btn");
+
+const nav = document.querySelector("nav");
+
+
+
+if(menuBtn){
+
+
+menuBtn.addEventListener("click",()=>{
+
+
+    nav.classList.toggle("active");
+
 
 });
 
 
+}
 
 
-// Animation on scroll
 
-const sections=document.querySelectorAll("section");
+
+// Close menu after clicking link
+
+
+const navLinks = document.querySelectorAll("nav ul li a");
+
+
+
+navLinks.forEach(link=>{
+
+
+    link.addEventListener("click",()=>{
+
+
+        nav.classList.remove("active");
+
+
+    });
+
+
+});
+
+/*========================================
+BACK TO TOP BUTTON
+========================================*/
+
+
+const backTop = document.createElement("div");
+
+backTop.className = "back-top";
+
+backTop.innerHTML = "↑";
+
+document.body.appendChild(backTop);
+
 
 
 window.addEventListener("scroll",()=>{
 
 
-sections.forEach(section=>{
+    if(window.scrollY > 300){
 
 
-    let position=section.getBoundingClientRect().top;
+        backTop.classList.add("show");
 
 
-    let screen=window.innerHeight;
+    }
+
+    else{
 
 
-    if(position < screen - 100){
+        backTop.classList.remove("show");
 
-        section.style.opacity="1";
-        section.style.transform="translateY(0)";
 
     }
 
@@ -75,18 +134,71 @@ sections.forEach(section=>{
 });
 
 
+
+backTop.addEventListener("click",()=>{
+
+
+    window.scrollTo({
+
+        top:0,
+
+        behavior:"smooth"
+
+    });
+
+
 });
 
 
 
 
-// Current year in footer
-
-const year=document.querySelector(".year");
 
 
-if(year){
 
-    year.innerHTML=new Date().getFullYear();
+/*========================================
+AUTO UPDATE FOOTER YEAR
+========================================*/
+
+
+const year = new Date().getFullYear();
+
+
+const footerYear = document.querySelector(".footer-bottom p");
+
+
+if(footerYear){
+
+
+    footerYear.innerHTML =
+    `© ${year} Jan Jagriti Secondary School. All Rights Reserved.`;
+
 
 }
+
+
+
+
+
+
+
+/*========================================
+IMAGE LOADING EFFECT
+========================================*/
+
+
+const images = document.querySelectorAll("img");
+
+
+images.forEach(image=>{
+
+
+    image.addEventListener("load",()=>{
+
+
+        image.style.opacity="1";
+
+
+    });
+
+
+});
