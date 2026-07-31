@@ -1,70 +1,28 @@
 /*========================================
-JAN JAGRITI SECONDARY SCHOOL
+JANA JAGRITI SECONDARY SCHOOL
 Official Website JavaScript
-PART 1
+script.js
 ========================================*/
 
 
-// ===============================
-// HERO IMAGE SLIDER
-// ===============================
-
-
-const slides = document.querySelectorAll(".slide");
-
-let currentSlide = 0;
-
-
-
-function changeSlide(){
-
-
-    slides[currentSlide].classList.remove("active");
-
-
-    currentSlide++;
-
-
-    if(currentSlide >= slides.length){
-
-        currentSlide = 0;
-
-    }
-
-
-    slides[currentSlide].classList.add("active");
-
-
-}
-
-
-
-setInterval(changeSlide,5000);
-
-
-
-
-
-
-
-// ===============================
+//==============================
 // MOBILE MENU
-// ===============================
+//==============================
 
 
-const menuBtn = document.querySelector(".menu-btn");
+const menuToggle = document.querySelector(".menu-toggle");
 
-const nav = document.querySelector("nav");
-
-
-
-if(menuBtn){
+const navbar = document.querySelector(".navbar");
 
 
-menuBtn.addEventListener("click",()=>{
+
+if(menuToggle && navbar){
 
 
-    nav.classList.toggle("active");
+menuToggle.addEventListener("click",()=>{
+
+
+    navbar.classList.toggle("active");
 
 
 });
@@ -75,10 +33,14 @@ menuBtn.addEventListener("click",()=>{
 
 
 
-// Close menu after clicking link
 
 
-const navLinks = document.querySelectorAll("nav ul li a");
+//==============================
+// CLOSE MENU AFTER CLICK
+//==============================
+
+
+const navLinks = document.querySelectorAll(".navbar a");
 
 
 
@@ -88,7 +50,11 @@ navLinks.forEach(link=>{
     link.addEventListener("click",()=>{
 
 
-        nav.classList.remove("active");
+        if(navbar){
+
+            navbar.classList.remove("active");
+
+        }
 
 
     });
@@ -96,109 +62,20 @@ navLinks.forEach(link=>{
 
 });
 
-/*========================================
-BACK TO TOP BUTTON
-========================================*/
 
 
-const backTop = document.createElement("div");
 
-backTop.className = "back-top";
 
-backTop.innerHTML = "↑";
 
-document.body.appendChild(backTop);
+//==============================
+// PAGE LOAD MESSAGE
+//==============================
 
 
+window.addEventListener("load",()=>{
 
-window.addEventListener("scroll",()=>{
 
-
-    if(window.scrollY > 300){
-
-
-        backTop.classList.add("show");
-
-
-    }
-
-    else{
-
-
-        backTop.classList.remove("show");
-
-
-    }
-
-
-});
-
-
-
-backTop.addEventListener("click",()=>{
-
-
-    window.scrollTo({
-
-        top:0,
-
-        behavior:"smooth"
-
-    });
-
-
-});
-
-
-
-
-
-
-
-/*========================================
-AUTO UPDATE FOOTER YEAR
-========================================*/
-
-
-const year = new Date().getFullYear();
-
-
-const footerYear = document.querySelector(".footer-bottom p");
-
-
-if(footerYear){
-
-
-    footerYear.innerHTML =
-    `© ${year} Jan Jagriti Secondary School. All Rights Reserved.`;
-
-
-}
-
-
-
-
-
-
-
-/*========================================
-IMAGE LOADING EFFECT
-========================================*/
-
-
-const images = document.querySelectorAll("img");
-
-
-images.forEach(image=>{
-
-
-    image.addEventListener("load",()=>{
-
-
-        image.style.opacity="1";
-
-
-    });
+    console.log("Jana Jagriti Secondary School Website Loaded");
 
 
 });
