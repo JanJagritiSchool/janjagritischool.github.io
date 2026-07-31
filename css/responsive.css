@@ -1,16 +1,17 @@
 /*========================================
-JAN JAGRITI SECONDARY SCHOOL
+JANA JAGRITI SECONDARY SCHOOL
 Responsive CSS
-PART 1
+Part 1
 ========================================*/
 
 
 /*==============================
-TABLET DEVICES
-(Max width 992px)
+  TABLET DEVICES
 ==============================*/
 
-@media(max-width:992px){
+
+@media(max-width:1024px){
+
 
 
 .container{
@@ -20,42 +21,132 @@ TABLET DEVICES
 }
 
 
-/* Navigation */
 
-nav{
+.navbar ul{
 
-    position:absolute;
-    top:100%;
-    left:0;
-    width:100%;
-    background:#0b3d91;
-    display:none;
-
-}
-
-
-nav.active{
-
-    display:block;
-
-}
-
-
-
-nav ul{
-
-    flex-direction:column;
-    text-align:center;
-    padding:20px 0;
     gap:15px;
 
 }
 
 
 
-.menu-btn{
+.navbar ul li a{
 
-    display:block;
+    font-size:14px;
+
+}
+
+
+
+.school-title h1{
+
+    font-size:19px;
+
+}
+
+
+
+.hero-content h1{
+
+    font-size:45px;
+
+}
+
+
+
+.hero-content h2{
+
+    font-size:30px;
+
+}
+
+
+
+.hero-content p{
+
+    font-size:20px;
+
+}
+
+
+
+.vmv-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.choose-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.stats-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.facilities-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.notice-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.gallery-preview{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.footer-content{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+}
+/*==============================
+  MOBILE DEVICES
+==============================*/
+
+
+@media(max-width:768px){
+
+
+
+.top-bar .container{
+
+    flex-direction:column;
+    gap:8px;
+
+}
+
+
+
+.nav-container{
+
+    flex-wrap:wrap;
 
 }
 
@@ -70,202 +161,78 @@ nav ul{
 
 
 
-.school-name h2{
+.school-title h1{
 
-    font-size:17px;
-
-}
-
-
-
-.school-name p{
-
-    font-size:11px;
+    font-size:16px;
 
 }
 
 
 
+.school-title p{
 
-/* Hero */
-
-.hero-content h1{
-
-    font-size:42px;
+    font-size:12px;
 
 }
 
 
 
-.hero-content p{
-
-    font-size:18px;
-
-}
+/* MOBILE MENU */
 
 
+.menu-toggle{
 
-
-
-/* Welcome */
-
-.welcome-content{
-
-    grid-template-columns:1fr;
-    gap:30px;
+    display:block;
 
 }
 
 
 
+.navbar{
 
-/* Principal */
-
-.principal-container{
-
-    grid-template-columns:1fr;
-
-}
-
-
-
-.principal-image{
-
-    max-width:350px;
-    margin:auto;
-
-}
-
-
-
-
-
-/* Statistics */
-
-.stats-container{
-
-    grid-template-columns:repeat(2,1fr);
-
-}
-
-
-
-
-/* Facilities */
-
-.facility-grid{
-
-    grid-template-columns:repeat(2,1fr);
-
-}
-
-
-
-
-
-/* Gallery */
-
-.gallery-grid{
-
-    grid-template-columns:repeat(2,1fr);
-
-}
-
-
-
-
-
-/* News */
-
-.news-grid{
-
-    grid-template-columns:1fr;
-
-}
-
-
-
-
-
-/* Footer */
-
-.footer-container{
-
-    grid-template-columns:1fr;
-
-}
-
-
-}
-
-/*========================================
-MOBILE DEVICES
-(Max width 600px)
-========================================*/
-
-
-@media(max-width:600px){
-
-
-.container{
-
-    width:94%;
-
-}
-
-
-
-
-/* Header */
-
-.header{
-
-    background:rgba(11,61,145,.95);
-
-}
-
-
-
-.logo-area{
-
-    gap:10px;
-
-}
-
-
-
-.logo-area img{
-
-    width:50px;
-    height:50px;
-
-}
-
-
-
-.school-name h2{
-
-    font-size:14px;
-
-}
-
-
-
-.school-name p{
-
+    width:100%;
     display:none;
 
 }
 
 
 
+.navbar.active{
+
+    display:block;
+
+}
 
 
-/* Hero */
+
+.navbar ul{
+
+    flex-direction:column;
+    background:#fff;
+    padding:20px;
+    margin-top:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.1);
+
+}
+
+
+
+.navbar ul li{
+
+    margin:10px 0;
+
+}
+
+
+
+
+
+/* HERO */
+
 
 .hero{
 
-    height:90vh;
+    height:75vh;
 
 }
 
@@ -273,8 +240,15 @@ MOBILE DEVICES
 
 .hero-content h1{
 
-    font-size:30px;
-    line-height:1.3;
+    font-size:32px;
+
+}
+
+
+
+.hero-content h2{
+
+    font-size:22px;
 
 }
 
@@ -282,7 +256,7 @@ MOBILE DEVICES
 
 .hero-content p{
 
-    font-size:16px;
+    font-size:17px;
 
 }
 
@@ -291,7 +265,7 @@ MOBILE DEVICES
 .hero-buttons{
 
     flex-direction:column;
-    gap:15px;
+    align-items:center;
 
 }
 
@@ -300,6 +274,7 @@ MOBILE DEVICES
 .btn-outline{
 
     margin-left:0;
+    margin-top:10px;
 
 }
 
@@ -307,7 +282,8 @@ MOBILE DEVICES
 
 
 
-/* Section */
+/* SECTIONS */
+
 
 .section{
 
@@ -326,95 +302,39 @@ MOBILE DEVICES
 
 
 
-/* Notice */
+
+.vmv-grid,
+.choose-grid,
+.stats-grid,
+.facilities-grid,
+.notice-grid,
+.gallery-preview,
+.footer-content{
+
+    grid-template-columns:1fr;
+
+}
+
+
 
 .notice-container{
 
     flex-direction:column;
-    gap:10px;
+    text-align:center;
 
 }
 
 
 
-.notice-title{
+.gallery-preview img{
 
-    width:max-content;
-
-}
-
-
-
-
-
-/* Statistics */
-
-.stats-container{
-
-    grid-template-columns:1fr;
+    height:250px;
 
 }
 
 
 
-.stat-box h2{
-
-    font-size:35px;
-
-}
-
-
-
-
-
-
-/* Facilities */
-
-.facility-grid{
-
-    grid-template-columns:1fr;
-
-}
-
-
-
-
-
-/* Gallery */
-
-.gallery-grid{
-
-    grid-template-columns:1fr;
-
-}
-
-
-
-.gallery-item img{
-
-    height:220px;
-
-}
-
-
-
-
-
-/* Video */
-
-.video-container video{
-
-    border-radius:10px;
-
-}
-
-
-
-
-
-/* Contact */
-
-.contact-cta h2{
+.contact-section h2{
 
     font-size:28px;
 
@@ -422,9 +342,165 @@ MOBILE DEVICES
 
 
 
+}
+/*==============================
+  SMALL MOBILE DEVICES
+==============================*/
 
 
-/* Footer */
+@media(max-width:480px){
+
+
+
+.container{
+
+    width:94%;
+
+}
+
+
+
+.logo-area{
+
+    gap:8px;
+
+}
+
+
+
+.logo-area img{
+
+    width:50px;
+    height:50px;
+
+}
+
+
+
+.school-title h1{
+
+    font-size:14px;
+
+}
+
+
+
+.school-title p{
+
+    font-size:11px;
+
+}
+
+
+
+.hero{
+
+    height:70vh;
+
+}
+
+
+
+.hero-content{
+
+    padding:10px;
+
+}
+
+
+
+.hero-content h1{
+
+    font-size:26px;
+
+}
+
+
+
+.hero-content h2{
+
+    font-size:20px;
+
+}
+
+
+
+.hero-content p{
+
+    font-size:15px;
+
+}
+
+
+
+.btn{
+
+    padding:10px 22px;
+
+    font-size:14px;
+
+}
+
+
+
+.section-title h2{
+
+    font-size:24px;
+
+}
+
+
+
+.section-title p{
+
+    font-size:14px;
+
+}
+
+
+
+.card-icon{
+
+    font-size:35px;
+
+}
+
+
+
+.info-card,
+.choose-card,
+.facility-card,
+.notice-card{
+
+    padding:25px 15px;
+
+}
+
+
+
+.stat-box h2{
+
+    font-size:30px;
+
+}
+
+
+
+.gallery-preview img{
+
+    height:200px;
+
+}
+
+
+
+.video-box video{
+
+    border-radius:10px;
+
+}
+
+
 
 .footer{
 
@@ -434,12 +510,11 @@ MOBILE DEVICES
 
 
 
-.footer-box img{
+.footer-about img{
 
     margin:auto;
 
 }
-
 
 
 }
