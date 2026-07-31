@@ -1234,3 +1234,88 @@ ul{
     }
 
 }
+/*==============================
+ ACADEMIC PROGRAMS
+==============================*/
+
+
+.academic-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+
+}
+
+
+
+.academic-card{
+
+    background:var(--gray);
+    padding:30px 20px;
+    text-align:center;
+    border-radius:15px;
+    transition:0.3s;
+
+}
+
+
+
+.academic-card:hover{
+
+    background:var(--primary);
+    color:#fff;
+    transform:translateY(-8px);
+
+}
+
+
+
+.academic-card i{
+
+    font-size:45px;
+    color:var(--secondary);
+    margin-bottom:15px;
+
+}
+
+
+
+.academic-card:hover i{
+
+    color:#fff;
+
+}
+
+
+
+.academic-card h3{
+
+    color:var(--primary);
+    margin-bottom:15px;
+
+}
+
+
+
+.academic-card:hover h3{
+
+    color:#fff;
+
+}
+
+
+
+.academic-card p{
+
+    color:#666;
+
+}
+
+
+
+.academic-card:hover p{
+
+    color:#fff;
+
+}
