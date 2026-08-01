@@ -518,3 +518,110 @@ Part 1
 
 
 }
+/*==============================
+  NEW PAGES RESPONSIVE FIX
+==============================*/
+
+
+@media(max-width:1024px){
+
+
+.academic-grid,
+.staff-grid,
+.contact-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.principal-container{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+
+
+}
+
+
+
+
+@media(max-width:768px){
+
+
+.academic-grid,
+.staff-grid,
+.contact-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.academic-card,
+.staff-card,
+.contact-card{
+
+    padding:25px 15px;
+
+}
+
+
+
+.principal-container{
+
+    flex-direction:column;
+
+}
+
+
+
+.principal-image img{
+
+    width:200px;
+    margin:auto;
+
+}
+
+
+
+.map-box iframe{
+
+    height:300px;
+
+}
+
+
+
+}
+
+
+
+
+@media(max-width:480px){
+
+
+.map-box iframe{
+
+    height:250px;
+
+}
+
+
+
+.academic-card h3,
+.staff-card h3,
+.contact-card h3{
+
+    font-size:18px;
+
+}
+
+
+
+}
