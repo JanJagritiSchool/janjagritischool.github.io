@@ -1320,16 +1320,20 @@ ul{
 
 }
 /*==============================
-  LANGUAGE SWITCH
+  LANGUAGE SWITCH ATTRACTIVE STYLE
 ==============================*/
 
 
 .language-switch{
 
-    font-size:14px;
-    font-weight:600;
-    color:var(--primary);
+    display:flex;
+    align-items:center;
+    gap:5px;
     margin-left:20px;
+    background:#f5f7fb;
+    padding:5px 8px;
+    border-radius:25px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
 
 }
 
@@ -1338,8 +1342,10 @@ ul{
 .language-switch a{
 
     color:var(--primary);
-    padding:5px 8px;
-    border-radius:15px;
+    font-size:13px;
+    font-weight:700;
+    padding:6px 12px;
+    border-radius:20px;
     transition:0.3s;
 
 }
@@ -1347,6 +1353,17 @@ ul{
 
 
 .language-switch a:hover{
+
+    background:var(--primary);
+    color:#fff;
+
+}
+
+
+
+/* Active English Button */
+
+.language-switch a:first-child{
 
     background:var(--secondary);
     color:#fff;
