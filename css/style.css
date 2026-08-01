@@ -1319,3 +1319,36 @@ ul{
     color:#fff;
 
 }
+/*==============================
+  LANGUAGE SWITCH
+==============================*/
+
+
+.language-switch{
+
+    font-size:14px;
+    font-weight:600;
+    color:var(--primary);
+    margin-left:20px;
+
+}
+
+
+
+.language-switch a{
+
+    color:var(--primary);
+    padding:5px 8px;
+    border-radius:15px;
+    transition:0.3s;
+
+}
+
+
+
+.language-switch a:hover{
+
+    background:var(--secondary);
+    color:#fff;
+
+}
