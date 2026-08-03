@@ -15,7 +15,6 @@ const menuToggle = document.querySelector(".menu-toggle");
 const navbar = document.querySelector(".navbar");
 
 
-
 if(menuToggle && navbar){
 
 
@@ -34,14 +33,12 @@ menuToggle.addEventListener("click",()=>{
 
 
 
-
 //==============================
 // CLOSE MENU AFTER CLICK
 //==============================
 
 
 const navLinks = document.querySelectorAll(".navbar a");
-
 
 
 navLinks.forEach(link=>{
@@ -61,6 +58,58 @@ navLinks.forEach(link=>{
 
 
 });
+
+
+
+
+
+
+//==============================
+// IMAGE LIGHTBOX
+//==============================
+
+
+function openLightbox(src){
+
+
+    const lightbox = document.getElementById("lightbox");
+
+    const lightboxImg = document.getElementById("lightbox-img");
+
+
+    if(lightbox && lightboxImg){
+
+
+        lightbox.style.display = "flex";
+
+        lightboxImg.src = src;
+
+
+    }
+
+
+}
+
+
+
+
+
+function closeLightbox(){
+
+
+    const lightbox = document.getElementById("lightbox");
+
+
+    if(lightbox){
+
+
+        lightbox.style.display = "none";
+
+
+    }
+
+
+}
 
 
 
