@@ -1478,3 +1478,24 @@ ul{
     }
 
 
+/*===again check====*/
+/* ===== Fix Nepal Flag Visibility ===== */
+
+.flag-box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:90px;
+    height:90px;
+    flex-shrink:0;
+}
+
+
+.nepal-flag{
+    width:70px;
+    height:auto;
+    display:block;
+    visibility:visible;
+    opacity:1;
+    animation:waveFlag 2s ease-in-out infinite;
+}
