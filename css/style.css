@@ -1479,23 +1479,46 @@ ul{
 
 
 /*===again check====*/
-/* ===== Fix Nepal Flag Visibility ===== */
+/* ===== Final Header Alignment Fix ===== */
 
-.flag-box{
+.top-header{
     display:flex;
     align-items:center;
+    justify-content:space-between;
+    width:100%;
+}
+
+
+.logo-area{
+    flex:0 0 120px;
+}
+
+
+.school-title{
+    flex:1;
+    text-align:center;
+}
+
+
+.flag-box{
+    flex:0 0 120px;
+    display:flex;
     justify-content:center;
-    width:90px;
-    height:90px;
-    flex-shrink:0;
+    align-items:center;
 }
 
 
 .nepal-flag{
-    width:70px;
+    width:80px;
     height:auto;
     display:block;
-    visibility:visible;
-    opacity:1;
     animation:waveFlag 2s ease-in-out infinite;
+}
+
+
+.school-codes{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    font-size:14px;
 }
