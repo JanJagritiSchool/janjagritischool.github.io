@@ -1509,3 +1509,69 @@ transform:rotate(0deg);
 .navbar ul li a:hover{
     color:#0066cc;
 }
+/* ===== New Header Layout ===== */
+
+.top-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px 20px;
+}
+
+
+.logo-area{
+    flex:0 0 auto;
+}
+
+
+.logo-area img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+}
+
+
+.school-title{
+    flex:1;
+    text-align:center;
+}
+
+
+.school-title h1{
+    font-size:32px;
+    font-weight:800;
+    margin:0;
+}
+
+
+.school-title p{
+    margin:5px 0 0;
+    font-size:16px;
+    font-style:italic;
+}
+
+
+.flag-box{
+    flex:0 0 auto;
+}
+
+
+.nepal-flag{
+    width:90px;
+    height:auto;
+}
+
+
+/* Menu in third line */
+
+.navbar{
+    width:100%;
+}
+
+
+.navbar ul{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
