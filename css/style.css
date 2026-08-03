@@ -1502,3 +1502,27 @@ ul{
     transform:none;
     animation:none;
 }
+/*=========chdecking spacing====== */
+/* ===== Header Final Alignment ===== */
+
+.top-header{
+    max-width:1200px;
+    margin:auto;
+    padding:15px 30px;
+}
+
+
+.logo-area{
+    margin-left:30px;
+}
+
+
+.flag-box{
+    margin-right:30px;
+}
+
+
+.navbar ul{
+    justify-content:center;
+    width:100%;
+}
