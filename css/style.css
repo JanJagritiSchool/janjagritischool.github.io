@@ -1,166 +1,292 @@
 /*========================================
-JANA JAGRITI SECONDARY SCHOOL
-Official Website CSS
-style.css - Part 1
+ JANA JAGRITI SECONDARY SCHOOL
+ FINAL WEBSITE CSS
+ PART 1 : BASIC + HEADER
 ========================================*/
 
 
-/*==============================
-  ROOT VARIABLES
-==============================*/
-
 :root{
-
     --primary:#0b3d91;
     --secondary:#f5a623;
     --dark:#222;
-    --light:#ffffff;
     --gray:#f5f7fb;
     --text:#333;
-
 }
-
-
-
-/*==============================
-  RESET
-==============================*/
 
 
 *{
-
     margin:0;
     padding:0;
     box-sizing:border-box;
-
 }
-
 
 
 html{
-
     scroll-behavior:smooth;
-
 }
-
 
 
 body{
-
     font-family:'Poppins',sans-serif;
     color:var(--text);
-    background:#ffffff;
-    line-height:1.7;
-
+    background:#fff;
 }
-
 
 
 img{
-
     max-width:100%;
     display:block;
-
 }
-
 
 
 a{
-
     text-decoration:none;
     color:inherit;
-
 }
-
 
 
 ul{
-
     list-style:none;
-
 }
-
-
-
-
-/*==============================
-  CONTAINER
-==============================*/
 
 
 .container{
-
     width:90%;
     max-width:1200px;
     margin:auto;
+}
+
+
+
+/*========================
+ TOP BAR
+========================*/
+
+.top-bar{
+    background:var(--primary);
+    color:white;
+    padding:8px 0;
+    font-size:14px;
+}
+
+
+.top-bar .container{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+
+/*========================
+ HEADER
+========================*/
+
+
+.header{
+    background:white;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 3px 15px rgba(0,0,0,.15);
+}
+
+
+
+.top-header{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    max-width:1200px;
+    margin:auto;
+    padding:15px 25px;
 
 }
 
 
 
+/* LEFT LOGO */
 
 
-/*==============================
-  SECTION COMMON STYLE
-==============================*/
+.logo-area{
+
+    width:120px;
+
+}
 
 
-.section{
+.logo-area img{
 
-    padding:80px 0;
+    width:90px;
+    height:90px;
+    object-fit:contain;
 
 }
 
 
 
-.section-title{
+/* CENTER SCHOOL DETAILS */
 
+
+.school-title{
+
+    flex:1;
     text-align:center;
-    margin-bottom:50px;
+
+}
+
+
+.school-codes{
+
+    display:flex;
+    justify-content:space-between;
+    font-size:14px;
+    font-weight:700;
+
+}
+
+
+.school-title h1{
+
+    font-size:38px;
+    font-weight:800;
+    color:var(--primary);
+    margin:5px 0;
 
 }
 
 
 
-.section-title h2{
+.school-title p{
 
-    font-size:36px;
-    color:var(--primary);
-    margin-bottom:15px;
+    margin:3px 0;
+
+}
+
+
+.motto{
+
+    color:var(--secondary);
+    font-weight:700;
+
+}
+
+
+.affiliation{
+
+    font-size:15px;
+
+}
+
+
+.estd{
+
     font-weight:700;
 
 }
 
 
 
-.section-title p{
+/* RIGHT FLAG */
 
-    color:#666;
-    max-width:750px;
-    margin:auto;
+
+.flag-box{
+
+    width:120px;
+    display:flex;
+    justify-content:center;
 
 }
 
 
 
+.nepal-flag{
 
-/*==============================
- BUTTONS
-==============================*/
+    width:85px;
+    filter:drop-shadow(0 3px 5px rgba(0,0,0,.3));
+    animation:flagWave 2s infinite ease-in-out;
 
+}
+
+
+
+@keyframes flagWave{
+
+    0%{
+        transform:rotate(0deg);
+    }
+
+
+    50%{
+        transform:rotate(6deg);
+    }
+
+
+    100%{
+        transform:rotate(0deg);
+    }
+
+}
+
+
+
+/*========================
+ MENU
+========================*/
+
+
+.navbar{
+
+    border-top:1px solid #eee;
+
+}
+
+
+
+.navbar ul{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    padding:12px 0;
+
+}
+
+
+
+.navbar ul li a{
+
+    font-weight:600;
+    color:#222;
+
+}
+
+
+
+.navbar ul li a:hover{
+
+    color:var(--primary);
+
+  /*========================================
+ PART 2 : HERO + MAIN SECTIONS
+========================================*/
+
+
+/*========================
+ BUTTON
+========================*/
 
 .btn{
 
     display:inline-block;
     padding:12px 30px;
     background:var(--secondary);
-    color:#fff;
+    color:white;
     border-radius:30px;
     font-weight:600;
-    transition:0.3s;
+    transition:.3s;
 
 }
-
 
 
 .btn:hover{
@@ -171,231 +297,19 @@ ul{
 }
 
 
-
 .btn-outline{
 
     background:transparent;
-    border:2px solid #fff;
+    border:2px solid white;
     margin-left:15px;
 
 }
 
 
 
-.btn-outline:hover{
-
-    background:#fff;
-    color:var(--primary);
-
-}
-/*==============================
-  TOP BAR
-==============================*/
-
-
-.top-bar{
-
-    background:var(--primary);
-    color:#fff;
-    font-size:14px;
-    padding:8px 0;
-
-}
-
-
-
-.top-bar .container{
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-}
-
-
-
-.top-left span{
-
-    margin-right:20px;
-
-}
-
-
-
-.top-right a{
-
-    margin-left:15px;
-    color:#fff;
-    transition:0.3s;
-
-}
-
-
-
-.top-right a:hover{
-
-    color:var(--secondary);
-
-}
-
-
-
-
-
-/*==============================
-  HEADER
-==============================*/
-
-
-.header{
-
-    background:#fff;
-    position:sticky;
-    top:0;
-    z-index:1000;
-    box-shadow:0 3px 15px rgba(0,0,0,0.1);
-
-}
-
-
-
-.nav-container{
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:12px 20px;
-    gap:20px;
-
-}
-
-
-
-
-
-/*==============================
-  LOGO AREA
-==============================*/
-
-
-.logo-area{
-
-    display:flex;
-    align-items:center;
-    gap:15px;
-
-}
-
-
-
-.logo-area img{
-
-    width:75px;
-    height:75px;
-    object-fit:contain;
-
-}
-
-
-
-.school-title h1{
-
-    font-size:22px;
-    color:var(--primary);
-    font-weight:700;
-
-}
-
-
-
-.school-title p{
-
-    font-size:14px;
-    color:var(--secondary);
-    font-weight:600;
-
-}
-
-
-
-
-
-/*==============================
-  NAVIGATION
-==============================*/
-
-
-.navbar ul{
-
-    display:flex;
-    align-items:center;
-    gap:22px;
-
-}
-
-
-
-.navbar ul li a{
-
-    font-size:15px;
-    font-weight:500;
-    color:var(--dark);
-    transition:0.3s;
-    position:relative;
-
-}
-
-
-
-.navbar ul li a:hover{
-
-    color:var(--primary);
-
-}
-
-
-
-.navbar ul li a::after{
-
-    content:"";
-    position:absolute;
-    left:0;
-    bottom:-6px;
-    width:0;
-    height:2px;
-    background:var(--secondary);
-    transition:0.3s;
-
-}
-
-
-
-.navbar ul li a:hover::after{
-
-    width:100%;
-
-}
-
-
-
-
-
-/*==============================
- MOBILE MENU ICON
-==============================*/
-
-
-.menu-toggle{
-
-    display:none;
-    font-size:30px;
-    cursor:pointer;
-    color:var(--primary);
-
-}
-/*==============================
-  HERO SLIDER
-==============================*/
+/*========================
+ HERO SLIDER
+========================*/
 
 
 .hero{
@@ -410,7 +324,6 @@ ul{
 }
 
 
-
 .hero-slide{
 
     position:absolute;
@@ -418,53 +331,25 @@ ul{
     background-size:cover;
     background-position:center;
     opacity:0;
-    transition:opacity 1.5s ease;
-    transform:scale(1.05);
+    transition:1.5s;
 
 }
-
 
 
 .hero-slide.active{
 
     opacity:1;
-    animation:zoomEffect 8s infinite;
 
 }
-
-
-
-@keyframes zoomEffect{
-
-    from{
-
-        transform:scale(1);
-
-    }
-
-
-    to{
-
-        transform:scale(1.1);
-
-    }
-
-}
-
-
-
 
 
 .hero-overlay{
 
     position:absolute;
     inset:0;
-    background:rgba(0,0,0,0.55);
+    background:rgba(0,0,0,.55);
 
 }
-
-
-
 
 
 .hero-content{
@@ -472,41 +357,30 @@ ul{
     position:relative;
     z-index:2;
     text-align:center;
-    color:#fff;
-    max-width:900px;
-    padding:20px;
-
+    color:white;
 }
-
 
 
 .hero-content h2{
 
     font-size:35px;
-    font-weight:400;
-    margin-bottom:10px;
 
 }
-
 
 
 .hero-content h1{
 
     font-size:55px;
     font-weight:800;
-    margin-bottom:15px;
-    line-height:1.2;
 
 }
-
 
 
 .hero-content p{
 
     font-size:22px;
     color:#ffd166;
-    font-weight:600;
-    margin-bottom:35px;
+    margin:20px;
 
 }
 
@@ -516,42 +390,40 @@ ul{
 
     display:flex;
     justify-content:center;
-    gap:15px;
 
 }
-/*==============================
-  NOTICE BAR
-==============================*/
+
+
+
+/*========================
+ NOTICE BAR
+========================*/
 
 
 .notice-bar{
 
     background:var(--secondary);
-    color:#fff;
+    color:white;
     padding:15px 0;
 
 }
-
 
 
 .notice-container{
 
     display:flex;
     align-items:center;
-    justify-content:space-between;
     gap:20px;
 
 }
 
 
-
 .notice-title{
 
-    font-size:20px;
     font-weight:700;
+    font-size:20px;
 
 }
-
 
 
 .notice-scroll{
@@ -575,16 +447,11 @@ ul{
 @keyframes scrollNotice{
 
     from{
-
         transform:translateX(100%);
-
     }
-
 
     to{
-
         transform:translateX(-100%);
-
     }
 
 }
@@ -592,30 +459,45 @@ ul{
 
 
 
-.notice-btn{
+/*========================
+ COMMON SECTION
+========================*/
 
-    background:#fff;
+
+.section{
+
+    padding:80px 0;
+
+}
+
+
+.section-title{
+
+    text-align:center;
+    margin-bottom:50px;
+
+}
+
+
+.section-title h2{
+
     color:var(--primary);
-    padding:8px 20px;
-    border-radius:20px;
-    font-weight:600;
+    font-size:36px;
+
+}
+
+
+.section-title p{
+
+    color:#666;
 
 }
 
 
 
-
-/*==============================
-  WELCOME SECTION
-==============================*/
-
-
-.welcome-section{
-
-    background:#fff;
-
-}
-
+/*========================
+ WELCOME
+========================*/
 
 
 .welcome-content{
@@ -627,17 +509,19 @@ ul{
 }
 
 
-
 .welcome-content p{
 
     margin-bottom:20px;
     font-size:17px;
-    color:#555;
 
 }
-/*==============================
-  VISION MISSION VALUES
-==============================*/
+
+
+
+
+/*========================
+ VMV CARDS
+========================*/
 
 
 .vmv-section{
@@ -660,20 +544,11 @@ ul{
 
 .info-card{
 
-    background:#fff;
+    background:white;
     padding:35px 25px;
     text-align:center;
     border-radius:15px;
-    box-shadow:0 10px 25px rgba(0,0,0,0.08);
-    transition:0.3s;
-
-}
-
-
-
-.info-card:hover{
-
-    transform:translateY(-10px);
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
 
 }
 
@@ -687,31 +562,18 @@ ul{
 }
 
 
-
 .info-card h3{
 
     color:var(--primary);
-    font-size:22px;
     margin-bottom:15px;
 
 }
 
 
 
-.info-card p{
-
-    color:#666;
-
-}
-
-
-
-
-
-
-/*==============================
-  WHY CHOOSE US
-==============================*/
+/*========================
+ WHY CHOOSE
+========================*/
 
 
 .choose-grid{
@@ -723,48 +585,28 @@ ul{
 }
 
 
-
 .choose-card{
 
-    background:#fff;
+    background:white;
     padding:30px 20px;
     text-align:center;
     border-radius:15px;
-    box-shadow:0 8px 20px rgba(0,0,0,0.08);
-    transition:0.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
 
 }
-
-
-
-.choose-card:hover{
-
-    transform:translateY(-8px);
-    box-shadow:0 15px 30px rgba(0,0,0,0.15);
-
-}
-
 
 
 .choose-card h3{
 
     color:var(--primary);
-    margin-bottom:12px;
-    font-size:20px;
 
 }
 
 
 
-.choose-card p{
-
-    color:#666;
-    font-size:15px;
-
-}
-/*==============================
-  SCHOOL STATISTICS
-==============================*/
+/*========================
+ STATISTICS
+========================*/
 
 
 .stats-section{
@@ -788,9 +630,9 @@ ul{
 
 .stat-box{
 
-    background:#fff;
+    background:white;
+    padding:30px;
     text-align:center;
-    padding:30px 15px;
     border-radius:15px;
 
 }
@@ -801,36 +643,16 @@ ul{
 
     color:var(--secondary);
     font-size:35px;
-    margin-bottom:10px;
 
 }
+  /*========================================
+ PART 3 : FACILITIES + GALLERY + FOOTER
+========================================*/
 
 
-
-.stat-box p{
-
-    color:var(--dark);
-    font-weight:600;
-
-}
-
-
-
-
-
-
-
-/*==============================
-  FACILITIES SECTION
-==============================*/
-
-
-.facilities-section{
-
-    background:#fff;
-
-}
-
+/*========================
+ FACILITIES
+========================*/
 
 
 .facilities-grid{
@@ -842,83 +664,45 @@ ul{
 }
 
 
-
 .facility-card{
 
     background:var(--gray);
     padding:30px 20px;
     text-align:center;
     border-radius:15px;
-    transition:0.3s;
+    transition:.3s;
 
 }
-
 
 
 .facility-card:hover{
 
     background:var(--primary);
-    color:#fff;
+    color:white;
     transform:translateY(-8px);
 
 }
 
 
-
 .facility-card h3{
 
     color:var(--primary);
-    font-size:20px;
     margin:15px 0;
 
 }
 
 
-
 .facility-card:hover h3{
 
-    color:#fff;
+    color:white;
 
 }
 
 
 
-.facility-card p{
-
-    font-size:15px;
-    color:#666;
-
-}
-
-
-
-.facility-card:hover p{
-
-    color:#fff;
-
-}
-/*==============================
- FACILITY ICONS
-==============================*/
-
-.facility-card i{
-
-    font-size:45px;
-    color:var(--secondary);
-    margin-bottom:15px;
-
-}
-
-
-
-.facility-card:hover i{
-
-    color:#fff;
-
-}
-/*==============================
-  NOTICE SECTION
-==============================*/
+/*========================
+ NOTICE CARDS
+========================*/
 
 
 .notice-section{
@@ -926,7 +710,6 @@ ul{
     background:var(--gray);
 
 }
-
 
 
 .notice-grid{
@@ -938,25 +721,14 @@ ul{
 }
 
 
-
 .notice-card{
 
-    background:#fff;
+    background:white;
     padding:30px;
     border-radius:15px;
-    box-shadow:0 8px 20px rgba(0,0,0,0.08);
-    transition:0.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
 
 }
-
-
-
-.notice-card:hover{
-
-    transform:translateY(-8px);
-
-}
-
 
 
 .notice-card h3{
@@ -965,16 +737,6 @@ ul{
     margin-bottom:15px;
 
 }
-
-
-
-.notice-card p{
-
-    color:#666;
-    margin-bottom:20px;
-
-}
-
 
 
 .notice-card a{
@@ -986,13 +748,9 @@ ul{
 
 
 
-
-
-
-
-/*==============================
-  GALLERY PREVIEW
-==============================*/
+/*========================
+ GALLERY
+========================*/
 
 
 .gallery-preview{
@@ -1011,7 +769,7 @@ ul{
     height:220px;
     object-fit:cover;
     border-radius:15px;
-    transition:0.4s;
+    transition:.4s;
 
 }
 
@@ -1024,7 +782,6 @@ ul{
 }
 
 
-
 .center-btn{
 
     text-align:center;
@@ -1034,13 +791,9 @@ ul{
 
 
 
-
-
-
-
-/*==============================
-  VIDEO SECTION
-==============================*/
+/*========================
+ VIDEO
+========================*/
 
 
 .video-section{
@@ -1048,7 +801,6 @@ ul{
     background:var(--gray);
 
 }
-
 
 
 .video-box{
@@ -1064,63 +816,51 @@ ul{
 
     width:100%;
     border-radius:15px;
-    box-shadow:0 10px 25px rgba(0,0,0,0.15);
 
 }
-/*==============================
-  CONTACT SECTION
-==============================*/
+
+
+
+/*========================
+ CONTACT
+========================*/
 
 
 .contact-section{
 
     background:var(--primary);
-    color:#fff;
+    color:white;
     text-align:center;
     padding:70px 0;
 
 }
 
 
-
 .contact-section h2{
 
     font-size:36px;
-    margin-bottom:15px;
 
 }
-
 
 
 .contact-section p{
 
-    margin-bottom:30px;
-    font-size:18px;
-
-}
-
-
-
-.contact-section .btn{
-
-    background:var(--secondary);
+    margin:20px;
 
 }
 
 
 
 
-
-
-/*==============================
-  FOOTER
-==============================*/
+/*========================
+ FOOTER
+========================*/
 
 
 .footer{
 
     background:#111;
-    color:#fff;
+    color:white;
     padding-top:60px;
 
 }
@@ -1148,8 +888,8 @@ ul{
 
 .footer h3{
 
-    margin-bottom:20px;
     color:var(--secondary);
+    margin-bottom:20px;
 
 }
 
@@ -1168,17 +908,9 @@ ul{
     display:block;
     margin-bottom:10px;
     color:#ccc;
-    transition:0.3s;
 
 }
 
-
-
-.footer-links a:hover{
-
-    color:var(--secondary);
-
-}
 
 
 
@@ -1193,481 +925,65 @@ ul{
 
 
 
-.footer-bottom p{
 
-    font-size:14px;
+/*========================
+ MOBILE RESPONSIVE
+========================*/
 
-}
 
+@media(max-width:900px){
 
-
-
-
-
-/*==============================
-  SIMPLE ANIMATION
-==============================*/
-
-
-.fade-in{
-
-    animation:fadeIn 1s ease;
-
-}
-
-
-
-@keyframes fadeIn{
-
-    from{
-
-        opacity:0;
-        transform:translateY(20px);
-
-    }
-
-
-    to{
-
-        opacity:1;
-        transform:translateY(0);
-
-    }
-
-}
-/*==============================
- ACADEMIC PROGRAMS
-==============================*/
-
-
-.academic-grid{
-
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:25px;
-
-}
-
-
-
-.academic-card{
-
-    background:var(--gray);
-    padding:30px 20px;
-    text-align:center;
-    border-radius:15px;
-    transition:0.3s;
-
-}
-
-
-
-.academic-card:hover{
-
-    background:var(--primary);
-    color:#fff;
-    transform:translateY(-8px);
-
-}
-
-
-
-.academic-card i{
-
-    font-size:45px;
-    color:var(--secondary);
-    margin-bottom:15px;
-
-}
-
-
-
-.academic-card:hover i{
-
-    color:#fff;
-
-}
-
-
-
-.academic-card h3{
-
-    color:var(--primary);
-    margin-bottom:15px;
-
-}
-
-
-
-.academic-card:hover h3{
-
-    color:#fff;
-
-}
-
-
-
-.academic-card p{
-
-    color:#666;
-
-}
-
-
-
-.academic-card:hover p{
-
-    color:#fff;
-
-}
-/*==============================
-  LANGUAGE SWITCH ATTRACTIVE STYLE
-==============================*/
-
-
-.language-switch{
-
-    display:flex;
-    align-items:center;
-    gap:5px;
-    margin-left:20px;
-    background:#f5f7fb;
-    padding:5px 8px;
-    border-radius:25px;
-    box-shadow:0 3px 10px rgba(0,0,0,0.08);
-
-}
-
-
-
-.language-switch a{
-
-    color:var(--primary);
-    font-size:13px;
-    font-weight:700;
-    padding:6px 12px;
-    border-radius:20px;
-    transition:0.3s;
-
-}
-
-
-
-.language-switch a:hover{
-
-    background:var(--primary);
-    color:#fff;
-
-}
-
-
-
-/* Active English Button */
-
-.language-switch a:first-child{
-
-    background:var(--secondary);
-    color:#fff;
-
-}
-
-/* ===== Professional Header Design ===== */
-
-.header{
-    background:#ffffff;
-    box-shadow:0 3px 10px rgba(0,0,0,0.15);
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
-
-
-.nav-container{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:10px 20px;
-}
-
-
-.navbar ul{
-    display:flex;
-    align-items:center;
-    gap:18px;
-}
-
-
-.navbar ul li a{
-    font-weight:600;
-    transition:0.3s;
-}
-
-
-.navbar ul li a:hover{
-    color:#0066cc;
-}
-/* ===== New Header Layout ===== */
 
 .top-header{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:15px 20px;
-}
 
+    flex-direction:column;
 
-.logo-area{
-    flex:0 0 auto;
-}
-
-
-.logo-area img{
-    width:90px;
-    height:90px;
-    object-fit:contain;
-}
-
-
-.school-title{
-    flex:1;
-    text-align:center;
 }
 
 
 .school-title h1{
-    font-size:32px;
-    font-weight:800;
-    margin:0;
-}
 
+    font-size:28px;
 
-.school-title p{
-    margin:5px 0 0;
-    font-size:16px;
-    font-style:italic;
-}
-
-/* ===== Nepal Flag ===== */
-
-.flag-box{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex:0 0 auto;
-}
-
-
-.nepal-flag{
-    width:90px;
-    height:auto;
-    display:block;
-    filter:drop-shadow(0 3px 5px rgba(0,0,0,0.3));
-    transform-origin:left center;
-    animation:waveFlag 2s ease-in-out infinite;
-}
-
-
-@keyframes waveFlag{
-
-    0%{
-        transform:rotate(0deg) skewY(0deg);
-    }
-
-    25%{
-        transform:rotate(3deg) skewY(3deg);
-    }
-
-
-/*===again check====*/
-/* ===== Final Header Alignment Fix ===== */
-
-.top-header{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    width:100%;
-}
-
-
-.logo-area{
-    flex:0 0 120px;
-}
-
-
-.school-title{
-    flex:1;
-    text-align:center;
-}
-
-
-.flag-box{
-    flex:0 0 120px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-
-.nepal-flag{
-    width:80px;
-    height:auto;
-    display:block;
-    animation:waveFlag 2s ease-in-out infinite;
-}
-
-
-.school-codes{
-    display:flex;
-    justify-content:space-between;
-    width:100%;
-    font-size:14px;
-}
-/*====double check===*/
-/*=================================
- FINAL SCHOOL HEADER
-=================================*/
-
-.header{
-    background:#fff;
-    position:sticky;
-    top:0;
-    z-index:1000;
-    box-shadow:0 3px 15px rgba(0,0,0,0.1);
-}
-
-
-.top-header{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    max-width:1200px;
-    margin:auto;
-    padding:15px 30px;
-}
-
-
-/* LEFT LOGO */
-
-.logo-area{
-    width:120px;
-}
-
-
-.logo-area img{
-    width:90px;
-    height:90px;
-    object-fit:contain;
-}
-
-
-
-/* CENTER SCHOOL INFORMATION */
-
-.school-title{
-    flex:1;
-    text-align:center;
-}
-
-
-.school-codes{
-    display:flex;
-    justify-content:space-between;
-    font-size:14px;
-    font-weight:600;
-    margin-bottom:5px;
-}
-
-
-.school-title h1{
-    font-size:38px;
-    font-weight:800;
-    color:var(--primary);
-    margin:5px 0;
-}
-
-
-.school-title .motto{
-    font-size:17px;
-    font-weight:600;
-    color:var(--secondary);
-}
-
-
-.school-title .affiliation{
-    font-size:15px;
-}
-
-
-.school-title .estd{
-    font-size:15px;
-    font-weight:600;
-}
-
-
-
-/* RIGHT FLAG */
-
-.flag-box{
-    width:120px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-
-.nepal-flag{
-    width:80px;
-    height:auto;
-    display:block;
-    filter:drop-shadow(0 3px 5px rgba(0,0,0,0.3));
-    transform-origin:left center;
-    animation:waveFlag 2s ease-in-out infinite;
-}
-
-
-
-@keyframes waveFlag{
-
-    0%{
-        transform:rotate(0deg) skewY(0deg);
-    }
-
-    25%{
-        transform:rotate(3deg) skewY(3deg);
-    }
-
-    50%{
-        transform:rotate(-3deg) skewY(-3deg);
-    }
-
-    75%{
-        transform:rotate(2deg) skewY(2deg);
-    }
-
-    100%{
-        transform:rotate(0deg) skewY(0deg);
-    }
-
-}
-
-
-
-/* MENU */
-
-.navbar{
-    width:100%;
-    border-top:1px solid #eee;
 }
 
 
 .navbar ul{
-    display:flex;
-    justify-content:center;
-    gap:22px;
-    padding:10px 0;
+
+    flex-wrap:wrap;
+
 }
 
 
-.navbar ul li a{
-    font-weight:600;
+.vmv-grid,
+.choose-grid,
+.stats-grid,
+.facilities-grid,
+.notice-grid,
+.gallery-preview,
+.footer-content{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.hero-content h1{
+
+    font-size:35px;
+
+}
+
+
+.hero-content h2{
+
+    font-size:25px;
+
+}
+
+
+
+}
+
 }
