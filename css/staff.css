@@ -1,1 +1,186 @@
+/*========================================
+JANA JAGRITI SECONDARY SCHOOL
+STAFF PAGE CSS
+========================================*/
 
+
+/*==============================
+PRINCIPAL CARD
+==============================*/
+
+
+.principal-card{
+
+    display:flex;
+    align-items:center;
+    gap:30px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+}
+
+
+
+.principal-card img{
+
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+
+}
+
+
+
+
+
+.principal-card h3{
+
+    font-size:28px;
+    margin-bottom:10px;
+
+}
+
+
+
+
+
+
+/*==============================
+STAFF GRID
+==============================*/
+
+
+.staff-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+
+}
+
+
+
+
+
+/*==============================
+STAFF CARD
+==============================*/
+
+
+.staff-card{
+
+    background:white;
+    text-align:center;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    transition:0.3s;
+
+}
+
+
+
+.staff-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+
+
+.staff-card img{
+
+    width:130px;
+    height:130px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+
+.staff-card h3{
+
+    font-size:20px;
+    margin-bottom:10px;
+
+}
+
+
+
+
+
+.staff-card p{
+
+    font-size:15px;
+    line-height:1.6;
+
+}
+
+
+
+
+
+
+/*==============================
+MOBILE RESPONSIVE
+==============================*/
+
+
+@media(max-width:992px){
+
+
+.staff-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+}
+
+
+
+
+
+@media(max-width:600px){
+
+
+.principal-card{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+
+
+.principal-card img{
+
+    width:180px;
+    height:180px;
+
+}
+
+
+
+.staff-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+}
