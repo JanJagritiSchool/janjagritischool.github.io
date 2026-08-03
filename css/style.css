@@ -1522,3 +1522,152 @@ ul{
     width:100%;
     font-size:14px;
 }
+/*====double check===*/
+/*=================================
+ FINAL SCHOOL HEADER
+=================================*/
+
+.header{
+    background:#fff;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 3px 15px rgba(0,0,0,0.1);
+}
+
+
+.top-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    max-width:1200px;
+    margin:auto;
+    padding:15px 30px;
+}
+
+
+/* LEFT LOGO */
+
+.logo-area{
+    width:120px;
+}
+
+
+.logo-area img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+}
+
+
+
+/* CENTER SCHOOL INFORMATION */
+
+.school-title{
+    flex:1;
+    text-align:center;
+}
+
+
+.school-codes{
+    display:flex;
+    justify-content:space-between;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:5px;
+}
+
+
+.school-title h1{
+    font-size:38px;
+    font-weight:800;
+    color:var(--primary);
+    margin:5px 0;
+}
+
+
+.school-title .motto{
+    font-size:17px;
+    font-weight:600;
+    color:var(--secondary);
+}
+
+
+.school-title .affiliation{
+    font-size:15px;
+}
+
+
+.school-title .estd{
+    font-size:15px;
+    font-weight:600;
+}
+
+
+
+/* RIGHT FLAG */
+
+.flag-box{
+    width:120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.nepal-flag{
+    width:80px;
+    height:auto;
+    display:block;
+    filter:drop-shadow(0 3px 5px rgba(0,0,0,0.3));
+    transform-origin:left center;
+    animation:waveFlag 2s ease-in-out infinite;
+}
+
+
+
+@keyframes waveFlag{
+
+    0%{
+        transform:rotate(0deg) skewY(0deg);
+    }
+
+    25%{
+        transform:rotate(3deg) skewY(3deg);
+    }
+
+    50%{
+        transform:rotate(-3deg) skewY(-3deg);
+    }
+
+    75%{
+        transform:rotate(2deg) skewY(2deg);
+    }
+
+    100%{
+        transform:rotate(0deg) skewY(0deg);
+    }
+
+}
+
+
+
+/* MENU */
+
+.navbar{
+    width:100%;
+    border-top:1px solid #eee;
+}
+
+
+.navbar ul{
+    display:flex;
+    justify-content:center;
+    gap:22px;
+    padding:10px 0;
+}
+
+
+.navbar ul li a{
+    font-weight:600;
+}
