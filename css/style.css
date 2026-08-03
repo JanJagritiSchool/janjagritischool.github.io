@@ -1371,33 +1371,6 @@ ul{
 
 }
 
-/* ===== Attractive Header Flag ===== */
-
-.flag-box{
-    display:flex;
-    align-items:center;
-    margin-left:20px;
-}
-
-.nepal-flag{
-    width:90px;
-    height:auto;
-    filter: drop-shadow(0 3px 5px rgba(0,0,0,0.3));
-    animation: flagFloat 3s ease-in-out infinite;
-}
-
-
-@keyframes flagFloat{
-
-    0%,100%{
-        transform:translateY(0);
-    }
-
-    50%{
-        transform:translateY(-8px);
-    }
-
-}
 /* ===== Professional Header Design ===== */
 
 .header{
@@ -1474,4 +1447,33 @@ ul{
     font-style:italic;
 }
 
+/* ===== Nepal Flag ===== */
 
+.flag-box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex:0 0 auto;
+}
+
+
+.nepal-flag{
+    width:90px;
+    height:auto;
+    display:block;
+    filter:drop-shadow(0 3px 5px rgba(0,0,0,0.3));
+    animation:flagFloat 3s ease-in-out infinite;
+}
+
+
+@keyframes flagFloat{
+
+    0%,100%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-8px);
+    }
+
+}
