@@ -1477,3 +1477,28 @@ ul{
     }
 
 }
+.top-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:120px;
+}
+
+
+.flag-box{
+    width:90px;
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+}
+
+
+.nepal-flag{
+    width:70px;
+    height:auto;
+    display:block;
+    transform:none;
+    animation:none;
+}
