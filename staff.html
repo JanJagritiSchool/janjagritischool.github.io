@@ -1,186 +1,397 @@
-/*========================================
-JANA JAGRITI SECONDARY SCHOOL
-STAFF PAGE CSS
-========================================*/
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
 
-/*==============================
-PRINCIPAL CARD
-==============================*/
+<meta charset="UTF-8">
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.principal-card{
+<title>
+Staff | Jana Jagriti Secondary School
+</title>
 
-    display:flex;
-    align-items:center;
-    gap:30px;
-    background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+<link rel="icon" type="image/png" href="images/logo.PNG">
 
-}
 
+<link rel="stylesheet" href="css/style.css">
 
+<link rel="stylesheet" href="css/responsive.css">
 
-.principal-card img{
+<link rel="stylesheet" href="css/staff.css">
 
-    width:220px;
-    height:220px;
-    object-fit:cover;
-    border-radius:50%;
 
-}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 
+</head>
 
 
+<body>
 
-.principal-card h3{
 
-    font-size:28px;
-    margin-bottom:10px;
+<!-- HEADER -->
 
-}
+<header class="header">
 
 
+<div class="container nav-container">
 
 
+<div class="logo-area">
 
+<img src="images/logo.PNG" alt="School Logo">
 
-/*==============================
-STAFF GRID
-==============================*/
 
+<div class="school-title">
 
-.staff-grid{
+<h1>
+Jana Jagriti Secondary School
+</h1>
 
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:25px;
+<p>
+Quality Education Is Our Commitment
+</p>
 
-}
+</div>
 
+</div>
 
 
 
 
-/*==============================
-STAFF CARD
-==============================*/
 
+<nav class="navbar">
 
-.staff-card{
+<ul>
 
-    background:white;
-    text-align:center;
-    padding:20px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+<li><a href="index.html">Home</a></li>
 
-    transition:0.3s;
+<li><a href="about.html">About</a></li>
 
-}
+<li><a href="academics.html">Academics</a></li>
 
+<li><a href="admission.html">Admission</a></li>
 
+<li><a href="results.html">Results</a></li>
 
-.staff-card:hover{
+<li><a href="notices.html">Notices</a></li>
 
-    transform:translateY(-8px);
+<li><a href="gallery.html">Gallery</a></li>
 
-}
+<li><a href="staff.html">Staff</a></li>
 
+<li><a href="contact.html">Contact</a></li>
 
+</ul>
 
+</nav>
 
 
-.staff-card img{
 
-    width:130px;
-    height:130px;
 
-    object-fit:cover;
 
-    border-radius:50%;
+<div class="language-switch">
 
-    margin-bottom:15px;
+<a href="staff.html">English</a>
 
-}
+|
 
+<a href="nepali/staff.html">नेपाली</a>
 
+</div>
 
 
 
-.staff-card h3{
+<div class="menu-toggle">
 
-    font-size:20px;
-    margin-bottom:10px;
+☰
 
-}
+</div>
 
 
+</div>
 
+</header>
 
 
-.staff-card p{
 
-    font-size:15px;
-    line-height:1.6;
 
-}
 
 
 
+<!-- PAGE BANNER -->
 
 
+<section class="page-banner">
 
-/*==============================
-MOBILE RESPONSIVE
-==============================*/
+<div class="container">
 
+<h1>
+Our Teachers & Staff
+</h1>
 
-@media(max-width:992px){
+<p>
+Dedicated team of Jana Jagriti Secondary School
+</p>
 
+</div>
 
-.staff-grid{
+</section>
 
-    grid-template-columns:repeat(2,1fr);
 
-}
 
 
-}
 
 
 
+<!-- PRINCIPAL -->
 
 
-@media(max-width:600px){
+<section class="section">
 
 
-.principal-card{
+<div class="container">
 
-    flex-direction:column;
-    text-align:center;
 
-}
+<div class="section-title">
 
+<h2>
+Principal
+</h2>
 
+</div>
 
-.principal-card img{
 
-    width:180px;
-    height:180px;
 
-}
+<div class="principal-card">
 
 
+<img src="images/principal.jpg"
+alt="Principal">
 
-.staff-grid{
 
-    grid-template-columns:1fr;
+<div>
 
-}
+<h3>
+Mr. Puskar Singh Bohara
+</h3>
 
 
-}
+<p>
+Principal
+</p>
+
+
+<p>
+Leading the school with dedication and vision.
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- TEACHING STAFF -->
+
+
+<section class="section" style="background:#f5f7fb;">
+
+
+<div class="container">
+
+
+<div class="section-title">
+
+<h2>
+Teaching Staff
+</h2>
+
+<p>
+Our experienced and dedicated teachers
+</p>
+
+</div>
+
+
+
+
+
+<div class="staff-grid">
+
+
+
+<div class="staff-card">
+
+<img src="images/teacher-placeholder.jpg">
+
+<h3>
+Teacher Name
+</h3>
+
+<p>
+<b>Department:</b> Science
+</p>
+
+<p>
+<b>Subject:</b> Physics
+</p>
+
+<p>
+<b>Level:</b> Grade 11-12
+</p>
+
+<p>
+<b>Contact:</b> 98XXXXXXXX
+</p>
+
+</div>
+
+
+
+
+
+<div class="staff-card">
+
+<img src="images/teacher-placeholder.jpg">
+
+<h3>
+Teacher Name
+</h3>
+
+<p>
+<b>Department:</b> Computer Science
+</p>
+
+<p>
+<b>Subject:</b> Computer
+</p>
+
+<p>
+<b>Level:</b> Grade 9-12
+</p>
+
+<p>
+<b>Contact:</b> 98XXXXXXXX
+</p>
+
+</div>
+
+
+
+
+
+<div class="staff-card">
+
+<img src="images/teacher-placeholder.jpg">
+
+<h3>
+Teacher Name
+</h3>
+
+<p>
+<b>Department:</b> Management
+</p>
+
+<p>
+<b>Subject:</b> Account
+</p>
+
+<p>
+<b>Level:</b> Grade 11-12
+</p>
+
+<p>
+<b>Contact:</b> 98XXXXXXXX
+</p>
+
+</div>
+
+
+
+
+
+<div class="staff-card">
+
+<img src="images/teacher-placeholder.jpg">
+
+<h3>
+Teacher Name
+</h3>
+
+<p>
+<b>Department:</b> Technical
+</p>
+
+<p>
+<b>Subject:</b> Civil Engineering
+</p>
+
+<p>
+<b>Level:</b> Grade 9-12
+</p>
+
+<p>
+<b>Contact:</b> 98XXXXXXXX
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer class="footer">
+
+
+<div class="container footer-bottom">
+
+
+<p>
+
+© 2026 Jana Jagriti Secondary School. All Rights Reserved.
+
+</p>
+
+
+</div>
+
+
+</footer>
+
+
+
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
