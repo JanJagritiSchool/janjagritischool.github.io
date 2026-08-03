@@ -1475,27 +1475,3 @@ ul{
 }
 
 
-.flag-box{
-    flex:0 0 auto;
-}
-
-
-.nepal-flag{
-    width:90px;
-    height:auto;
-}
-
-
-/* Menu in third line */
-
-.navbar{
-    width:100%;
-}
-
-
-.navbar ul{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:20px;
-}
