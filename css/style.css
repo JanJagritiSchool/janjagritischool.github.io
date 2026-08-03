@@ -1477,6 +1477,28 @@ ul{
         transform:rotate(3deg) skewY(3deg);
     }
 
+
+/*=====check=====*/
+  /* ===== Align Logo and Flag Center with Full Header ===== */
+
+.top-header{
+    display:flex;
+    align-items:center;
+}
+
+
+.logo-area,
+.flag-box{
+    display:flex;
+    align-items:center;
+    height:100%;
+}
+
+
+.logo-area img,
+.nepal-flag{
+    margin-top:10px;
+}
     50%{
         transform:rotate(-3deg) skewY(-3deg);
     }
