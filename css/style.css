@@ -1,1 +1,190 @@
-48614fd02a64654068de0441b995a8043bfbeee1
+/*==============================
+  FINAL SCHOOL HEADER DESIGN
+==============================*/
+
+.header{
+    background:#fff;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 3px 15px rgba(0,0,0,0.12);
+}
+
+
+/* TOP HEADER */
+
+.top-header{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:12px 0;
+
+}
+
+
+/* LOGO LEFT */
+
+.logo-area{
+
+    width:120px;
+    display:flex;
+    justify-content:flex-start;
+
+}
+
+
+.logo-area img{
+
+    width:90px;
+    height:90px;
+    object-fit:contain;
+
+}
+
+
+
+/* CENTER SCHOOL INFORMATION */
+
+.school-title{
+
+    flex:1;
+    text-align:center;
+
+}
+
+
+.school-codes{
+
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+    font-weight:600;
+    color:#333;
+    margin-bottom:5px;
+
+}
+
+
+.school-title h1{
+
+    font-size:38px;
+    font-weight:800;
+    color:#0b3d91;
+    margin:5px 0;
+
+}
+
+
+.school-title .motto{
+
+    font-size:17px;
+    font-weight:600;
+    color:#f5a623;
+
+}
+
+
+.school-title .affiliation{
+
+    font-size:15px;
+
+}
+
+
+.school-title .estd{
+
+    font-size:15px;
+    font-weight:600;
+
+}
+
+
+
+/* NEPAL FLAG RIGHT */
+
+.flag-box{
+
+    width:120px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+
+}
+
+
+.nepal-flag{
+
+    width:85px;
+    height:auto;
+    filter:drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+    transform-origin:left center;
+    animation:flagWave 2s infinite ease-in-out;
+
+}
+
+
+/* FLAG BLOWING EFFECT */
+
+@keyframes flagWave{
+
+    0%{
+        transform:rotate(0deg);
+    }
+
+    25%{
+        transform:rotate(5deg);
+    }
+
+    50%{
+        transform:rotate(-5deg);
+    }
+
+    75%{
+        transform:rotate(3deg);
+    }
+
+    100%{
+        transform:rotate(0deg);
+    }
+
+}
+
+
+
+/* NAVIGATION SECOND LINE */
+
+.navbar{
+
+    width:100%;
+    border-top:1px solid #eee;
+
+}
+
+
+.navbar ul{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    padding:12px 0;
+
+}
+
+
+.navbar ul li a{
+
+    font-weight:600;
+    color:#222;
+}
+
+
+.navbar ul li a:hover{
+
+    color:#0b3d91;
+
+}
