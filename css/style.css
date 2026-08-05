@@ -1,45 +1,188 @@
 /*========================================
-HEADER FINAL CSS
+JANA JAGRITI SECONDARY SCHOOL
+NEW STYLE.CSS
+PART 1
+RESET + HEADER + NAVIGATION
 ========================================*/
 
 
-.header{
-    width:100%;
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 
-/* TOP HEADER */
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    color:#333;
+    background:#ffffff;
+    line-height:1.6;
+
+}
+
+
+img{
+
+    max-width:100%;
+    display:block;
+
+}
+
+
+a{
+
+    text-decoration:none;
+
+}
+
+
+
+ul{
+
+    list-style:none;
+
+}
+
+
+
+
+/* =========================
+   CONTAINER
+========================= */
+
+
+.container{
+
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+
+}
+
+
+
+
+
+/* =========================
+   TOP BAR
+========================= */
+
+
+.top-bar{
+
+    background:#004aad;
+    color:white;
+    padding:8px 0;
+    font-size:14px;
+
+}
+
+
+.top-bar .container{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+
+.top-left span{
+
+    margin-right:20px;
+
+}
+
+
+.top-right a{
+
+    color:white;
+    margin-left:15px;
+
+}
+
+
+
+
+
+/* =========================
+   HEADER
+========================= */
+
+
+.header{
+
+    width:100%;
+    background:white;
+
+}
+
+
 
 .top-header{
 
     display:flex;
     align-items:center;
     justify-content:space-between;
+    gap:20px;
     padding:15px 40px;
-    background:white;
 
 }
+
+
 
 
 /* LOGO */
 
-.logo-area img{
 
-    width:95px;
-    height:auto;
+.logo-area{
+
+    flex:0 0 120px;
 
 }
 
 
-/* SCHOOL INFORMATION */
+.logo-area img{
+
+    width:95px;
+
+}
+
+
+
+
+
+/* SCHOOL DETAILS */
+
 
 .school-title{
 
     flex:1;
     text-align:center;
-    padding:0 20px;
 
 }
+
+
+
+.school-codes span{
+
+    font-size:14px;
+    margin:0 10px;
+    color:#555;
+
+}
+
 
 
 .school-title h1{
@@ -51,20 +194,14 @@ HEADER FINAL CSS
 }
 
 
-.school-codes span{
-
-    margin:0 10px;
-    font-size:14px;
-
-}
-
 
 .motto{
 
-    font-weight:bold;
+    font-weight:700;
     color:#006400;
 
 }
+
 
 
 .affiliation{
@@ -74,23 +211,28 @@ HEADER FINAL CSS
 }
 
 
+
 .estd{
 
-    font-weight:bold;
+    font-weight:600;
 
 }
 
 
-/* RIGHT SIDE */
+
+
+
+/* FLAG + LANGUAGE */
+
 
 .right-header{
 
+    flex:0 0 120px;
     text-align:center;
 
 }
 
 
-/* FLAG */
 
 .flag-area img{
 
@@ -103,24 +245,36 @@ HEADER FINAL CSS
 }
 
 
+
+
 @keyframes flagWave{
 
-    0%{
-        transform:rotateY(0deg);
-    }
 
-    50%{
-        transform:rotateY(25deg);
-    }
+0%{
 
-    100%{
-        transform:rotateY(0deg);
-    }
+    transform:rotateY(0deg);
 
 }
 
 
-/* LANGUAGE */
+50%{
+
+    transform:rotateY(25deg);
+
+}
+
+
+100%{
+
+    transform:rotateY(0deg);
+
+}
+
+
+}
+
+
+
 
 .language-switch{
 
@@ -129,14 +283,15 @@ HEADER FINAL CSS
 }
 
 
+
 .language-switch a{
 
-    text-decoration:none;
     color:#004aad;
     font-weight:bold;
-    margin:5px;
+    margin:3px;
 
 }
+
 
 
 .language-switch a:hover{
@@ -144,68 +299,64 @@ HEADER FINAL CSS
     color:red;
 
 }
-/* ================================
-   FINAL HEADER FIX
-================================ */
 
-.top-header{
+
+
+
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+
+.navbar{
+
+    background:#004aad;
+
+}
+
+
+
+.navbar ul{
+
     display:flex;
+    justify-content:center;
     align-items:center;
-    justify-content:space-between;
-    width:100%;
+    gap:25px;
+    padding:12px;
+
 }
 
 
-.logo-area{
-    flex:0 0 auto;
+
+.navbar ul li a{
+
+    color:white;
+    font-weight:600;
+    font-size:16px;
+
 }
 
 
-.logo-area img{
-    width:95px;
+
+.navbar ul li a:hover{
+
+    color:#ffdd00;
+
 }
 
 
-.school-title{
-    flex:1;
+
+
+/* MOBILE MENU ICON */
+
+
+.menu-toggle{
+
+    display:none;
     text-align:center;
-}
+    font-size:28px;
+    cursor:pointer;
 
-
-.right-header{
-    flex:0 0 auto;
-    text-align:center;
-}
-
-
-.flag-area img{
-    width:75px;
-}
-
-
-.language-switch{
-    margin-top:10px;
-}
-
-
-/* remove list behaviour */
-
-.top-header div{
-    box-sizing:border-box;
-}
-/* FORCE HEADER ROW */
-
-.top-header{
-    display:flex !important;
-    flex-direction:row !important;
-    align-items:center !important;
-    justify-content:space-between !important;
-}
-
-
-.top-header > div{
-    display:block;
-}
-.top-header{
-    border:10px solid red !important;
 }
