@@ -144,3 +144,52 @@ HEADER FINAL CSS
     color:red;
 
 }
+/* ================================
+   FINAL HEADER FIX
+================================ */
+
+.top-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+}
+
+
+.logo-area{
+    flex:0 0 auto;
+}
+
+
+.logo-area img{
+    width:95px;
+}
+
+
+.school-title{
+    flex:1;
+    text-align:center;
+}
+
+
+.right-header{
+    flex:0 0 auto;
+    text-align:center;
+}
+
+
+.flag-area img{
+    width:75px;
+}
+
+
+.language-switch{
+    margin-top:10px;
+}
+
+
+/* remove list behaviour */
+
+.top-header div{
+    box-sizing:border-box;
+}
