@@ -24,3 +24,32 @@
     }
 
 }
+.language-switch{
+
+    margin-top:15px;
+    text-align:center;
+
+}
+
+
+.language-switch button{
+
+    padding:5px 10px;
+    margin:3px;
+
+    border:none;
+    border-radius:5px;
+
+    background:#004aad;
+    color:white;
+
+    cursor:pointer;
+
+}
+
+
+.language-switch button:hover{
+
+    background:#d00000;
+
+}
