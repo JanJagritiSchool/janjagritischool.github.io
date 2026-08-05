@@ -1,154 +1,5 @@
-.nepal-flag{
-
-    width:75px;
-
-    animation: flagWave 2s infinite ease-in-out;
-
-    transform-origin:left center;
-
-}
-
-
-@keyframes flagWave{
-
-    0%{
-        transform:rotateY(0deg);
-    }
-
-    50%{
-        transform:rotateY(25deg);
-    }
-
-    100%{
-        transform:rotateY(0deg);
-    }
-
-}
-.language-switch{
-
-    margin-top:15px;
-    text-align:center;
-
-}
-
-
-.language-switch button{
-
-    padding:5px 10px;
-    margin:3px;
-
-    border:none;
-    border-radius:5px;
-
-    background:#004aad;
-    color:white;
-
-    cursor:pointer;
-
-}
-
-
-.language-switch button:hover{
-
-    background:#d00000;
-
-}
-/* ================================
-   MAIN HEADER LAYOUT
-================================ */
-
-.main-header{
-
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:20px;
-    padding:15px 40px;
-
-}
-
-
-/* LOGO */
-
-.logo-area img{
-
-    width:90px;
-}
-
-
-/* SCHOOL DETAILS */
-
-.school-info{
-
-    flex:1;
-    text-align:center;
-
-}
-
-
-.school-info h1{
-
-    font-size:32px;
-    color:#004aad;
-
-}
-
-
-.school-info h3{
-
-    margin:5px 0;
-
-}
-
-
-/* FLAG */
-
-.flag-area{
-
-    text-align:center;
-
-}
-
-
-.nepal-flag{
-
-    width:75px;
-    animation:flagWave 2s infinite ease-in-out;
-    transform-origin:left center;
-
-}
-
-
-@keyframes flagWave{
-
-    0%{
-        transform:rotateY(0deg);
-    }
-
-    50%{
-        transform:rotateY(25deg);
-    }
-
-    100%{
-        transform:rotateY(0deg);
-    }
-
-}
-.main-header{
-    display:flex !important;
-    flex-direction:row !important;
-    align-items:center;
-    justify-content:space-between;
-    background:#f5f5f5;
-}
-
-.logo-area,
-.flag-area,
-.school-info{
-    display:block;
-}
 /*========================================
-NEW HEADER DESIGN
+HEADER FINAL CSS
 ========================================*/
 
 
@@ -165,10 +16,9 @@ NEW HEADER DESIGN
     align-items:center;
     justify-content:space-between;
     padding:15px 40px;
-    background:#ffffff;
+    background:white;
 
 }
-
 
 
 /* LOGO */
@@ -181,8 +31,7 @@ NEW HEADER DESIGN
 }
 
 
-
-/* SCHOOL DETAILS */
+/* SCHOOL INFORMATION */
 
 .school-title{
 
@@ -204,9 +53,8 @@ NEW HEADER DESIGN
 
 .school-codes span{
 
-    font-size:14px;
     margin:0 10px;
-    color:#555;
+    font-size:14px;
 
 }
 
@@ -233,8 +81,7 @@ NEW HEADER DESIGN
 }
 
 
-
-/* FLAG AREA */
+/* RIGHT SIDE */
 
 .right-header{
 
@@ -243,14 +90,9 @@ NEW HEADER DESIGN
 }
 
 
-.flag-area{
+/* FLAG */
 
-    margin-bottom:10px;
-
-}
-
-
-.nepal-flag{
+.flag-area img{
 
     width:75px;
 
@@ -261,9 +103,6 @@ NEW HEADER DESIGN
 }
 
 
-
-/* FLAG WAVE ANIMATION */
-
 @keyframes flagWave{
 
     0%{
@@ -281,15 +120,21 @@ NEW HEADER DESIGN
 }
 
 
-
 /* LANGUAGE */
+
+.language-switch{
+
+    margin-top:10px;
+
+}
+
 
 .language-switch a{
 
     text-decoration:none;
     color:#004aad;
     font-weight:bold;
-    margin:3px;
+    margin:5px;
 
 }
 
@@ -297,35 +142,5 @@ NEW HEADER DESIGN
 .language-switch a:hover{
 
     color:red;
-
-}
-/* ================================
-   NEPAL FLAG WAVE
-================================ */
-
-.flag-area img{
-
-    width:75px;
-
-    animation: flagWave 2s infinite ease-in-out;
-
-    transform-origin:left center;
-
-}
-
-
-@keyframes flagWave{
-
-    0%{
-        transform:rotateY(0deg);
-    }
-
-    50%{
-        transform:rotateY(25deg);
-    }
-
-    100%{
-        transform:rotateY(0deg);
-    }
 
 }
