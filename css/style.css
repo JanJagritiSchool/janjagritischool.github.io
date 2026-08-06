@@ -1452,3 +1452,49 @@ ul{
     font-size:16px;
     font-style:italic;
 }
+/*========================================
+  LANGUAGE SWITCHER & DYNAMIC TOGGLE
+========================================*/
+
+.header-bottom {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 5%;
+    background: #f8f9fa;
+    border-top: 1px solid #e5e5e5;
+}
+
+.language-switch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.language-switch span {
+    color: #ccc;
+    font-size: 12px;
+}
+
+.language-switch a {
+    color: var(--primary, #0b3d91);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.language-switch a:hover {
+    color: var(--secondary, #f5a623);
+}
+
+/* Active Highlight Class for Selected Language */
+.language-switch a.active {
+    background: var(--secondary, #f5a623);
+    color: #ffffff;
+}
