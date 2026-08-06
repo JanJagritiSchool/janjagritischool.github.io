@@ -130,7 +130,7 @@ window.addEventListener("load",()=>{
 });
 
 /*========================================
-  DYNAMIC LANGUAGE SWITCHER (EN / NP)
+  ROBUST LANGUAGE SWITCHER (EN / NP)
 ========================================*/
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -138,26 +138,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnNp = document.getElementById('lang-np-btn');
 
     function switchLanguage(lang) {
-        // Find all elements containing both English and Nepali translations
+        // Target all elements configured for translation
         const elements = document.querySelectorAll('[data-en][data-np]');
         
         elements.forEach(el => {
             const translatedText = el.getAttribute(`data-${lang}`);
-            if (translatedText) {
-                el.textContent = translatedText;
+            if (translatedText !== null) {
+                // Using innerHTML ensures HTML tags and quotes display correctly
+                el.innerHTML = translatedText;
             }
         });
 
-        // Toggle active button style
+        // Update button active state
         if (lang === 'np') {
-            btnNp.classList.add('active');
-            btnEn.classList.remove('active');
+            if (btnNp) btnNp.classList.add('active');
+            if (btnEn) btnEn.classList.remove('active');
         } else {
-            btnEn.classList.add('active');
-            btnNp.classList.remove('active');
+            if (btnEn) btnEn.classList.add('active');
+            if (btnNp) btnNp.classList.remove('active');
         }
 
-        // Save selected language in local storage
+        // Store active language in browser memory
         localStorage.setItem('selectedLang', lang);
     }
 
@@ -171,9 +172,9 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             switchLanguage('np');
         });
-
-        // Load saved language preference on page load (defaults to English)
-        const savedLang = localStorage.getItem('selectedLang') || 'en';
-        switchLanguage(savedLang);
     }
+
+    // Auto-run on page load
+    const savedLang = localStorage.getItem('selectedLang') || 'en';
+    switchLanguage(savedLang);
 });
