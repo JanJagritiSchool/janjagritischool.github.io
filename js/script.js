@@ -128,3 +128,52 @@ window.addEventListener("load",()=>{
 
 
 });
+
+/*========================================
+  DYNAMIC LANGUAGE SWITCHER (EN / NP)
+========================================*/
+
+document.addEventListener('DOMContentLoaded', () => {
+    const btnEn = document.getElementById('lang-en-btn');
+    const btnNp = document.getElementById('lang-np-btn');
+
+    function switchLanguage(lang) {
+        // Find all elements containing both English and Nepali translations
+        const elements = document.querySelectorAll('[data-en][data-np]');
+        
+        elements.forEach(el => {
+            const translatedText = el.getAttribute(`data-${lang}`);
+            if (translatedText) {
+                el.textContent = translatedText;
+            }
+        });
+
+        // Toggle active button style
+        if (lang === 'np') {
+            btnNp.classList.add('active');
+            btnEn.classList.remove('active');
+        } else {
+            btnEn.classList.add('active');
+            btnNp.classList.remove('active');
+        }
+
+        // Save selected language in local storage
+        localStorage.setItem('selectedLang', lang);
+    }
+
+    if (btnEn && btnNp) {
+        btnEn.addEventListener('click', (e) => {
+            e.preventDefault();
+            switchLanguage('en');
+        });
+
+        btnNp.addEventListener('click', (e) => {
+            e.preventDefault();
+            switchLanguage('np');
+        });
+
+        // Load saved language preference on page load (defaults to English)
+        const savedLang = localStorage.getItem('selectedLang') || 'en';
+        switchLanguage(savedLang);
+    }
+});
