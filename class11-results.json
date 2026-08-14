@@ -1,1 +1,6817 @@
-
+[
+  {
+    "sn": 1,
+    "registrationNumber": "817710090026",
+    "symbolNumber": "27102799",
+    "name": "Abhishek Chaudhary",
+    "dateOfBirth": "2062-06-12",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.31,
+    "rank": null
+  },
+  {
+    "sn": 2,
+    "registrationNumber": "817710090027",
+    "symbolNumber": "27102800",
+    "name": "Aisha Budha Magar",
+    "dateOfBirth": "2061-07-30",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.25,
+    "rank": null
+  },
+  {
+    "sn": 3,
+    "registrationNumber": "817710090028",
+    "symbolNumber": "27102801",
+    "name": "Anil Chaudhary",
+    "dateOfBirth": "2061-07-24",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.03,
+    "rank": null
+  },
+  {
+    "sn": 4,
+    "registrationNumber": "817710090029",
+    "symbolNumber": "27102802",
+    "name": "Anjali Bayak",
+    "dateOfBirth": "2063-08-17",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "A"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.44,
+    "rank": null
+  },
+  {
+    "sn": 5,
+    "registrationNumber": "817710090030",
+    "symbolNumber": "27102803",
+    "name": "Anjali Sonaha",
+    "dateOfBirth": "2063-07-18",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.13,
+    "rank": null
+  },
+  {
+    "sn": 6,
+    "registrationNumber": "817710090031",
+    "symbolNumber": "27102804",
+    "name": "Anjan Chaudhary",
+    "dateOfBirth": "2063-09-09",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.07,
+    "rank": null
+  },
+  {
+    "sn": 7,
+    "registrationNumber": "817710090032",
+    "symbolNumber": "27102805",
+    "name": "Ankit Chaudhary",
+    "dateOfBirth": "2063-02-21",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": null
+      },
+      {
+        "name": "Optional I",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional II",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional III",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": null,
+    "rank": null
+  },
+  {
+    "sn": 8,
+    "registrationNumber": "817710090033",
+    "symbolNumber": "27102806",
+    "name": "Anupam Upadhyay",
+    "dateOfBirth": "2063-10-06",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.46,
+    "rank": null
+  },
+  {
+    "sn": 9,
+    "registrationNumber": "817710090034",
+    "symbolNumber": "27102807",
+    "name": "Asmita Bhul",
+    "dateOfBirth": "2063-06-15",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.14,
+    "rank": null
+  },
+  {
+    "sn": 10,
+    "registrationNumber": "817710090035",
+    "symbolNumber": "27102808",
+    "name": "Asmita Gc",
+    "dateOfBirth": "2062-05-04",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.37,
+    "rank": null
+  },
+  {
+    "sn": 11,
+    "registrationNumber": "817710090036",
+    "symbolNumber": "27102809",
+    "name": "Barsha Budha",
+    "dateOfBirth": "2062-07-21",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.33,
+    "rank": null
+  },
+  {
+    "sn": 12,
+    "registrationNumber": "817710090037",
+    "symbolNumber": "27102810",
+    "name": "Bharat Bishwakarma",
+    "dateOfBirth": "2042-07-05",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.36,
+    "rank": null
+  },
+  {
+    "sn": 13,
+    "registrationNumber": "817710090038",
+    "symbolNumber": "27102811",
+    "name": "Bharat Rawal",
+    "dateOfBirth": "2063-03-27",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.2,
+    "rank": null
+  },
+  {
+    "sn": 14,
+    "registrationNumber": "817710090039",
+    "symbolNumber": "27102812",
+    "name": "Bharda Kumari Jaishi",
+    "dateOfBirth": "2062-06-23",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "A"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.89,
+    "rank": null
+  },
+  {
+    "sn": 15,
+    "registrationNumber": "817710090040",
+    "symbolNumber": "27102813",
+    "name": "Bhawana Rana Magar",
+    "dateOfBirth": "2066-06-26",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.33,
+    "rank": null
+  },
+  {
+    "sn": 16,
+    "registrationNumber": "817710090041",
+    "symbolNumber": "27102814",
+    "name": "Bhawana Bajgain",
+    "dateOfBirth": "2064-03-16",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "A"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.84,
+    "rank": null
+  },
+  {
+    "sn": 17,
+    "registrationNumber": "817710090042",
+    "symbolNumber": "27102815",
+    "name": "Bhawana Majhi",
+    "dateOfBirth": "2063-04-25",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.11,
+    "rank": null
+  },
+  {
+    "sn": 18,
+    "registrationNumber": "817710090043",
+    "symbolNumber": "27102816",
+    "name": "Bhawana Sahakari",
+    "dateOfBirth": "2064-05-10",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "A"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.86,
+    "rank": null
+  },
+  {
+    "sn": 19,
+    "registrationNumber": "817710090044",
+    "symbolNumber": "27102817",
+    "name": "Bhawana Kumari Baduwal",
+    "dateOfBirth": "2063-06-26",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.11,
+    "rank": null
+  },
+  {
+    "sn": 20,
+    "registrationNumber": "817710090045",
+    "symbolNumber": "27102818",
+    "name": "Bhawani Prasad Upahdyaya",
+    "dateOfBirth": "2063-11-01",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.62,
+    "rank": null
+  },
+  {
+    "sn": 21,
+    "registrationNumber": "817710090046",
+    "symbolNumber": "27102819",
+    "name": "Bijaya Laxmi Rawat",
+    "dateOfBirth": "2061-04-23",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.4,
+    "rank": null
+  },
+  {
+    "sn": 22,
+    "registrationNumber": "817710090047",
+    "symbolNumber": "27102820",
+    "name": "Binita Bk",
+    "dateOfBirth": "2063-04-15",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "NG"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "NG"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": null,
+    "rank": null
+  },
+  {
+    "sn": 23,
+    "registrationNumber": "817710090048",
+    "symbolNumber": "27102821",
+    "name": "Binod Thapa",
+    "dateOfBirth": "2060-06-22",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "A"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.34,
+    "rank": null
+  },
+  {
+    "sn": 24,
+    "registrationNumber": "817710090049",
+    "symbolNumber": "27102822",
+    "name": "Bipana Sunar",
+    "dateOfBirth": "2063-03-24",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.44,
+    "rank": null
+  },
+  {
+    "sn": 25,
+    "registrationNumber": "817710090050",
+    "symbolNumber": "27102823",
+    "name": "Birendra Bahadur Shahi",
+    "dateOfBirth": "2062-11-07",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.32,
+    "rank": null
+  },
+  {
+    "sn": 26,
+    "registrationNumber": "817710090051",
+    "symbolNumber": "27102824",
+    "name": "Bishal Upadhyaya",
+    "dateOfBirth": "2063-03-10",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.57,
+    "rank": null
+  },
+  {
+    "sn": 27,
+    "registrationNumber": "817710090052",
+    "symbolNumber": "27102825",
+    "name": "Chadani Khadka",
+    "dateOfBirth": "2065-04-20",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.32,
+    "rank": null
+  },
+  {
+    "sn": 28,
+    "registrationNumber": "817710090053",
+    "symbolNumber": "27102826",
+    "name": "Chandra Ale Magar",
+    "dateOfBirth": "2064-10-01",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.53,
+    "rank": null
+  },
+  {
+    "sn": 29,
+    "registrationNumber": "817710090054",
+    "symbolNumber": "27102827",
+    "name": "Daman Bahadur Bhandari",
+    "dateOfBirth": "2063-01-13",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.47,
+    "rank": null
+  },
+  {
+    "sn": 30,
+    "registrationNumber": "817710090055",
+    "symbolNumber": "27102828",
+    "name": "Dammar Bahadur Thapa",
+    "dateOfBirth": "2060-10-14",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "NG"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": null,
+    "rank": null
+  },
+  {
+    "sn": 31,
+    "registrationNumber": "817710090056",
+    "symbolNumber": "27102829",
+    "name": "Dashrath Neupane",
+    "dateOfBirth": "2066-07-01",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": null
+      },
+      {
+        "name": "Optional I",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional II",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional III",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": null,
+    "rank": null
+  },
+  {
+    "sn": 32,
+    "registrationNumber": "817710090057",
+    "symbolNumber": "27102830",
+    "name": "Deedpak Pandey",
+    "dateOfBirth": "2061-01-29",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.4,
+    "rank": null
+  },
+  {
+    "sn": 33,
+    "registrationNumber": "817710090058",
+    "symbolNumber": "27102831",
+    "name": "Dhansara Bhul",
+    "dateOfBirth": "2064-03-07",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.36,
+    "rank": null
+  },
+  {
+    "sn": 34,
+    "registrationNumber": "817710090059",
+    "symbolNumber": "27102832",
+    "name": "Dikrant Rawal",
+    "dateOfBirth": "2064-06-11",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.43,
+    "rank": null
+  },
+  {
+    "sn": 35,
+    "registrationNumber": "817710090060",
+    "symbolNumber": "27102833",
+    "name": "Dikshya Adhikari",
+    "dateOfBirth": "2062-11-09",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.03,
+    "rank": null
+  },
+  {
+    "sn": 36,
+    "registrationNumber": "817710090061",
+    "symbolNumber": "27102834",
+    "name": "Dipika Bajgain",
+    "dateOfBirth": "2063-06-20",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.53,
+    "rank": null
+  },
+  {
+    "sn": 37,
+    "registrationNumber": "817710090062",
+    "symbolNumber": "27102835",
+    "name": "Diya Thapa",
+    "dateOfBirth": "2063-04-19",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.14,
+    "rank": null
+  },
+  {
+    "sn": 38,
+    "registrationNumber": "817710090063",
+    "symbolNumber": "27102836",
+    "name": "Gangaram Adhikari",
+    "dateOfBirth": "2063-10-27",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.67,
+    "rank": null
+  },
+  {
+    "sn": 39,
+    "registrationNumber": "817710090064",
+    "symbolNumber": "27102837",
+    "name": "Gauri Tamatta",
+    "dateOfBirth": "2062-03-03",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.1,
+    "rank": null
+  },
+  {
+    "sn": 40,
+    "registrationNumber": "817710090065",
+    "symbolNumber": "27102838",
+    "name": "Gayatri Bhul",
+    "dateOfBirth": "2065-01-19",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.3,
+    "rank": null
+  },
+  {
+    "sn": 41,
+    "registrationNumber": "817710090066",
+    "symbolNumber": "27102839",
+    "name": "Gayatri Dhakal",
+    "dateOfBirth": "2063-12-03",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "A+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "A"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.9,
+    "rank": null
+  },
+  {
+    "sn": 42,
+    "registrationNumber": "817710090067",
+    "symbolNumber": "27102840",
+    "name": "Gita Jaishi",
+    "dateOfBirth": "2062-03-25",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.63,
+    "rank": null
+  },
+  {
+    "sn": 43,
+    "registrationNumber": "817710090068",
+    "symbolNumber": "27102841",
+    "name": "Govinda Bajgain",
+    "dateOfBirth": "2064-01-27",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "A"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "A"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 3.28,
+    "rank": null
+  },
+  {
+    "sn": 44,
+    "registrationNumber": "817710090069",
+    "symbolNumber": "27102842",
+    "name": "Govinda Prasad Jaishi",
+    "dateOfBirth": "2065-03-07",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "A"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.45,
+    "rank": null
+  },
+  {
+    "sn": 45,
+    "registrationNumber": "817710090070",
+    "symbolNumber": "27102843",
+    "name": "Hikmat Neupane",
+    "dateOfBirth": "2061-06-22",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "A"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.96,
+    "rank": null
+  },
+  {
+    "sn": 46,
+    "registrationNumber": "817710090071",
+    "symbolNumber": "27102844",
+    "name": "Hikmat Khadka",
+    "dateOfBirth": "2062-02-12",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.22,
+    "rank": null
+  },
+  {
+    "sn": 47,
+    "registrationNumber": "817710090072",
+    "symbolNumber": "27102845",
+    "name": "Hima Kumari Bk",
+    "dateOfBirth": "2062-05-16",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "A"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "A"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "A"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 3.27,
+    "rank": null
+  },
+  {
+    "sn": 48,
+    "registrationNumber": "817710090073",
+    "symbolNumber": "27102846",
+    "name": "Himani Neupane",
+    "dateOfBirth": "2064-10-02",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.85,
+    "rank": null
+  },
+  {
+    "sn": 49,
+    "registrationNumber": "817710090074",
+    "symbolNumber": "27102847",
+    "name": "Jagat Pandey",
+    "dateOfBirth": "2064-12-18",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "A"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 3.04,
+    "rank": null
+  },
+  {
+    "sn": 50,
+    "registrationNumber": "817710090075",
+    "symbolNumber": "27102848",
+    "name": "Janak Upadhyaya",
+    "dateOfBirth": "2065-08-08",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.67,
+    "rank": null
+  },
+  {
+    "sn": 51,
+    "registrationNumber": "817710090076",
+    "symbolNumber": "27102849",
+    "name": "Jayas Jaishi",
+    "dateOfBirth": "2060-06-18",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.58,
+    "rank": null
+  },
+  {
+    "sn": 52,
+    "registrationNumber": "817710090077",
+    "symbolNumber": "27102850",
+    "name": "Jems Tarami Magar",
+    "dateOfBirth": "2064-10-21",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.24,
+    "rank": null
+  },
+  {
+    "sn": 53,
+    "registrationNumber": "817710090078",
+    "symbolNumber": "27102851",
+    "name": "Jetendra Shahi",
+    "dateOfBirth": "2064-12-15",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.3,
+    "rank": null
+  },
+  {
+    "sn": 54,
+    "registrationNumber": "817710090079",
+    "symbolNumber": "27102852",
+    "name": "Kabita Bk",
+    "dateOfBirth": "2064-10-22",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.53,
+    "rank": null
+  },
+  {
+    "sn": 55,
+    "registrationNumber": "817710090080",
+    "symbolNumber": "27102853",
+    "name": "Kalpana Khadka",
+    "dateOfBirth": "2063-04-24",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.15,
+    "rank": null
+  },
+  {
+    "sn": 56,
+    "registrationNumber": "817710090081",
+    "symbolNumber": "27102854",
+    "name": "Kamala Bhandari",
+    "dateOfBirth": "2063-10-05",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.23,
+    "rank": null
+  },
+  {
+    "sn": 57,
+    "registrationNumber": "817710090082",
+    "symbolNumber": "27102855",
+    "name": "Kamala Rokaya",
+    "dateOfBirth": "2063-05-01",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.36,
+    "rank": null
+  },
+  {
+    "sn": 58,
+    "registrationNumber": "817710090083",
+    "symbolNumber": "27102856",
+    "name": "Karina Chaudhary",
+    "dateOfBirth": "2063-10-12",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.2,
+    "rank": null
+  },
+  {
+    "sn": 59,
+    "registrationNumber": "817710090084",
+    "symbolNumber": "27102857",
+    "name": "Karishma Sunar",
+    "dateOfBirth": "2063-01-29",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.07,
+    "rank": null
+  },
+  {
+    "sn": 60,
+    "registrationNumber": "817710090085",
+    "symbolNumber": "27102858",
+    "name": "Karishma Tamatta",
+    "dateOfBirth": "2064-04-06",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.34,
+    "rank": null
+  },
+  {
+    "sn": 61,
+    "registrationNumber": "817710090086",
+    "symbolNumber": "27102859",
+    "name": "Keshab Aauji",
+    "dateOfBirth": "2065-05-06",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.51,
+    "rank": null
+  },
+  {
+    "sn": 62,
+    "registrationNumber": "817710090087",
+    "symbolNumber": "27102860",
+    "name": "Khemraj Adhikari",
+    "dateOfBirth": "2064-08-15",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.23,
+    "rank": null
+  },
+  {
+    "sn": 63,
+    "registrationNumber": "817710090088",
+    "symbolNumber": "27102861",
+    "name": "Krishna Bk",
+    "dateOfBirth": "2062-07-16",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "A+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "A+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 3.43,
+    "rank": null
+  },
+  {
+    "sn": 64,
+    "registrationNumber": "817710090089",
+    "symbolNumber": "27102862",
+    "name": "Krishna Bista",
+    "dateOfBirth": "2058-12-01",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.45,
+    "rank": null
+  },
+  {
+    "sn": 65,
+    "registrationNumber": "817710090090",
+    "symbolNumber": "27102863",
+    "name": "Krishna Dhamala",
+    "dateOfBirth": "2064-07-27",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.58,
+    "rank": null
+  },
+  {
+    "sn": 66,
+    "registrationNumber": "817710090091",
+    "symbolNumber": "27102864",
+    "name": "Krishna Rawal",
+    "dateOfBirth": "2064-08-20",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "A+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.86,
+    "rank": null
+  },
+  {
+    "sn": 67,
+    "registrationNumber": "817710090092",
+    "symbolNumber": "27102865",
+    "name": "Krishna Bahadur Batala",
+    "dateOfBirth": "2064-05-20",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "A+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 3.17,
+    "rank": null
+  },
+  {
+    "sn": 68,
+    "registrationNumber": "817710090093",
+    "symbolNumber": "27102866",
+    "name": "Krishna Prasad Neupane",
+    "dateOfBirth": "2064-03-02",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.12,
+    "rank": null
+  },
+  {
+    "sn": 69,
+    "registrationNumber": "817710090094",
+    "symbolNumber": "27102867",
+    "name": "Laxman Bahadur Bhul",
+    "dateOfBirth": "2062-10-12",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.22,
+    "rank": null
+  },
+  {
+    "sn": 70,
+    "registrationNumber": "817710090095",
+    "symbolNumber": "27102868",
+    "name": "Laxmi Bhul",
+    "dateOfBirth": "2064-09-25",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.12,
+    "rank": null
+  },
+  {
+    "sn": 71,
+    "registrationNumber": "817710090096",
+    "symbolNumber": "27102869",
+    "name": "Laxmi Chalaune",
+    "dateOfBirth": "2065-12-18",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.14,
+    "rank": null
+  },
+  {
+    "sn": 72,
+    "registrationNumber": "817710090097",
+    "symbolNumber": "27102870",
+    "name": "Laxmi Gaha Magar",
+    "dateOfBirth": "2065-01-08",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.49,
+    "rank": null
+  },
+  {
+    "sn": 73,
+    "registrationNumber": "817710090098",
+    "symbolNumber": "27102871",
+    "name": "Laxmi Sharma",
+    "dateOfBirth": "2064-06-12",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.73,
+    "rank": null
+  },
+  {
+    "sn": 74,
+    "registrationNumber": "817710090099",
+    "symbolNumber": "27102872",
+    "name": "Lokesh Dhamala",
+    "dateOfBirth": "2064-05-02",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.31,
+    "rank": null
+  },
+  {
+    "sn": 75,
+    "registrationNumber": "817710090100",
+    "symbolNumber": "27102873",
+    "name": "Mahesh Kumar Shahi",
+    "dateOfBirth": "2063-09-27",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.1,
+    "rank": null
+  },
+  {
+    "sn": 76,
+    "registrationNumber": "817710090101",
+    "symbolNumber": "27102874",
+    "name": "Mamata Kumari Baduwal",
+    "dateOfBirth": "2063-08-19",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.34,
+    "rank": null
+  },
+  {
+    "sn": 77,
+    "registrationNumber": "817710090102",
+    "symbolNumber": "27102875",
+    "name": "Manisha Dhamala",
+    "dateOfBirth": "2063-06-04",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.31,
+    "rank": null
+  },
+  {
+    "sn": 78,
+    "registrationNumber": "817710090103",
+    "symbolNumber": "27102876",
+    "name": "Manisha Pariyar",
+    "dateOfBirth": "2061-03-10",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.2,
+    "rank": null
+  },
+  {
+    "sn": 79,
+    "registrationNumber": "817710090104",
+    "symbolNumber": "27102877",
+    "name": "Manisha Shah",
+    "dateOfBirth": "2063-06-04",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.46,
+    "rank": null
+  },
+  {
+    "sn": 80,
+    "registrationNumber": "817710090105",
+    "symbolNumber": "27102878",
+    "name": "Manju Budha Magar",
+    "dateOfBirth": "2062-12-07",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.2,
+    "rank": null
+  },
+  {
+    "sn": 81,
+    "registrationNumber": "817710090106",
+    "symbolNumber": "27102879",
+    "name": "Min Bahadur Khadka",
+    "dateOfBirth": "2060-11-22",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": null
+      },
+      {
+        "name": "Optional I",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional II",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional III",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": null,
+    "rank": null
+  },
+  {
+    "sn": 82,
+    "registrationNumber": "817710090107",
+    "symbolNumber": "27102880",
+    "name": "Mina Jaishi",
+    "dateOfBirth": "2063-11-04",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.35,
+    "rank": null
+  },
+  {
+    "sn": 83,
+    "registrationNumber": "817710090108",
+    "symbolNumber": "27102881",
+    "name": "Mina Rokaya",
+    "dateOfBirth": "2063-04-10",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.12,
+    "rank": null
+  },
+  {
+    "sn": 84,
+    "registrationNumber": "817710090109",
+    "symbolNumber": "27102882",
+    "name": "Nirmala Pokhrel",
+    "dateOfBirth": "2062-08-10",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.5,
+    "rank": null
+  },
+  {
+    "sn": 85,
+    "registrationNumber": "817710090110",
+    "symbolNumber": "27102883",
+    "name": "Niruta Bk",
+    "dateOfBirth": "2063-02-17",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.25,
+    "rank": null
+  },
+  {
+    "sn": 86,
+    "registrationNumber": "817710090111",
+    "symbolNumber": "27102884",
+    "name": "Nisha Budha",
+    "dateOfBirth": "2063-02-27",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.27,
+    "rank": null
+  },
+  {
+    "sn": 87,
+    "registrationNumber": "817710090112",
+    "symbolNumber": "27102885",
+    "name": "Pabitra Kumari Jaishi",
+    "dateOfBirth": "2063-03-20",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.43,
+    "rank": null
+  },
+  {
+    "sn": 88,
+    "registrationNumber": "817710090113",
+    "symbolNumber": "27102886",
+    "name": "Parbati Sodari",
+    "dateOfBirth": "2063-01-27",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.38,
+    "rank": null
+  },
+  {
+    "sn": 89,
+    "registrationNumber": "817710090114",
+    "symbolNumber": "27102887",
+    "name": "Pratap Bista",
+    "dateOfBirth": "2061-06-29",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.32,
+    "rank": null
+  },
+  {
+    "sn": 90,
+    "registrationNumber": "817710090115",
+    "symbolNumber": "27102888",
+    "name": "Pratiksha Bk",
+    "dateOfBirth": "2064-05-10",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.46,
+    "rank": null
+  },
+  {
+    "sn": 91,
+    "registrationNumber": "817710090116",
+    "symbolNumber": "27102889",
+    "name": "Pratima Timilsena",
+    "dateOfBirth": "2064-11-04",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.34,
+    "rank": null
+  },
+  {
+    "sn": 92,
+    "registrationNumber": "817710090117",
+    "symbolNumber": "27102890",
+    "name": "Puja Bk",
+    "dateOfBirth": "2061-08-30",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": null
+      },
+      {
+        "name": "Optional I",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional II",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional III",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": null,
+    "rank": null
+  },
+  {
+    "sn": 93,
+    "registrationNumber": "817710090118",
+    "symbolNumber": "27102891",
+    "name": "Puja Kami",
+    "dateOfBirth": "2062-12-11",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.19,
+    "rank": null
+  },
+  {
+    "sn": 94,
+    "registrationNumber": "817710090119",
+    "symbolNumber": "27102892",
+    "name": "Puja Thapa",
+    "dateOfBirth": "2064-03-10",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.73,
+    "rank": null
+  },
+  {
+    "sn": 95,
+    "registrationNumber": "817710090120",
+    "symbolNumber": "27102893",
+    "name": "Punam Thapa Magar",
+    "dateOfBirth": "2064-09-22",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "NG"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": null,
+    "rank": null
+  },
+  {
+    "sn": 96,
+    "registrationNumber": "817710090121",
+    "symbolNumber": "27102894",
+    "name": "Puspa Neupane",
+    "dateOfBirth": "2063-02-10",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.24,
+    "rank": null
+  },
+  {
+    "sn": 97,
+    "registrationNumber": "817710090122",
+    "symbolNumber": "27102895",
+    "name": "Rajaram Neupane",
+    "dateOfBirth": "2063-12-21",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.35,
+    "rank": null
+  },
+  {
+    "sn": 98,
+    "registrationNumber": "817710090123",
+    "symbolNumber": "27102896",
+    "name": "Rajesh Neupane",
+    "dateOfBirth": "2063-11-24",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.4,
+    "rank": null
+  },
+  {
+    "sn": 99,
+    "registrationNumber": "817710090124",
+    "symbolNumber": "27102897",
+    "name": "Ram Bahadur Bhul",
+    "dateOfBirth": "2062-10-12",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.23,
+    "rank": null
+  },
+  {
+    "sn": 100,
+    "registrationNumber": "817710090125",
+    "symbolNumber": "27102898",
+    "name": "Ramesh Joshi",
+    "dateOfBirth": "2064-01-19",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.43,
+    "rank": null
+  },
+  {
+    "sn": 101,
+    "registrationNumber": "817710090126",
+    "symbolNumber": "27102899",
+    "name": "Ramita Bhul",
+    "dateOfBirth": "2065-12-01",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.25,
+    "rank": null
+  },
+  {
+    "sn": 102,
+    "registrationNumber": "817710090127",
+    "symbolNumber": "27102900",
+    "name": "Reshma Vishwakarma",
+    "dateOfBirth": "2062-02-02",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.71,
+    "rank": null
+  },
+  {
+    "sn": 103,
+    "registrationNumber": "817710090128",
+    "symbolNumber": "27102901",
+    "name": "Rita Sarki",
+    "dateOfBirth": "2063-07-13",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.51,
+    "rank": null
+  },
+  {
+    "sn": 104,
+    "registrationNumber": "817710090129",
+    "symbolNumber": "27102902",
+    "name": "Ritu Dhamala",
+    "dateOfBirth": "2063-07-16",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.72,
+    "rank": null
+  },
+  {
+    "sn": 105,
+    "registrationNumber": "817710090130",
+    "symbolNumber": "27102903",
+    "name": "Rohit Bk",
+    "dateOfBirth": "2061-10-16",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.79,
+    "rank": null
+  },
+  {
+    "sn": 106,
+    "registrationNumber": "817710090131",
+    "symbolNumber": "27102904",
+    "name": "Rohit Chaudhary",
+    "dateOfBirth": "2062-04-24",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.36,
+    "rank": null
+  },
+  {
+    "sn": 107,
+    "registrationNumber": "817710090132",
+    "symbolNumber": "27102905",
+    "name": "Roshan Bista",
+    "dateOfBirth": "2062-09-11",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.29,
+    "rank": null
+  },
+  {
+    "sn": 108,
+    "registrationNumber": "817710090133",
+    "symbolNumber": "27102906",
+    "name": "Roshan Shah",
+    "dateOfBirth": "2066-10-25",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.2,
+    "rank": null
+  },
+  {
+    "sn": 109,
+    "registrationNumber": "817710090134",
+    "symbolNumber": "27102907",
+    "name": "Salina Baduwal",
+    "dateOfBirth": "2063-05-01",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.37,
+    "rank": null
+  },
+  {
+    "sn": 110,
+    "registrationNumber": "817710090135",
+    "symbolNumber": "27102908",
+    "name": "Samiksha Khadka",
+    "dateOfBirth": "2063-04-25",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.54,
+    "rank": null
+  },
+  {
+    "sn": 111,
+    "registrationNumber": "817710090136",
+    "symbolNumber": "27102909",
+    "name": "Sandesh Dhamala",
+    "dateOfBirth": "2063-08-13",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.4,
+    "rank": null
+  },
+  {
+    "sn": 112,
+    "registrationNumber": "817710090137",
+    "symbolNumber": "27102910",
+    "name": "Sandhya Bk",
+    "dateOfBirth": "2063-02-19",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.28,
+    "rank": null
+  },
+  {
+    "sn": 113,
+    "registrationNumber": "817710090138",
+    "symbolNumber": "27102911",
+    "name": "Sangita Bishwokarma",
+    "dateOfBirth": "2063-11-02",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.39,
+    "rank": null
+  },
+  {
+    "sn": 114,
+    "registrationNumber": "817710090139",
+    "symbolNumber": "27102912",
+    "name": "Sangita Rawal",
+    "dateOfBirth": "2064-04-21",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.65,
+    "rank": null
+  },
+  {
+    "sn": 115,
+    "registrationNumber": "817710090140",
+    "symbolNumber": "27102913",
+    "name": "Sanjana Bk",
+    "dateOfBirth": "2061-11-16",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.31,
+    "rank": null
+  },
+  {
+    "sn": 116,
+    "registrationNumber": "817710090141",
+    "symbolNumber": "27102914",
+    "name": "Santosi Pandey",
+    "dateOfBirth": "2063-11-30",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.5,
+    "rank": null
+  },
+  {
+    "sn": 117,
+    "registrationNumber": "817710090142",
+    "symbolNumber": "27102915",
+    "name": "Saraswati Shahi",
+    "dateOfBirth": "2062-06-28",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.05,
+    "rank": null
+  },
+  {
+    "sn": 118,
+    "registrationNumber": "817710090143",
+    "symbolNumber": "27102916",
+    "name": "Sarita Bk",
+    "dateOfBirth": "2063-05-08",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.51,
+    "rank": null
+  },
+  {
+    "sn": 119,
+    "registrationNumber": "817710090144",
+    "symbolNumber": "27102917",
+    "name": "Sarita Bohara",
+    "dateOfBirth": "2065-08-24",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.21,
+    "rank": null
+  },
+  {
+    "sn": 120,
+    "registrationNumber": "817710090145",
+    "symbolNumber": "27102918",
+    "name": "Sarita Sunar",
+    "dateOfBirth": "2061-09-28",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.26,
+    "rank": null
+  },
+  {
+    "sn": 121,
+    "registrationNumber": "817710090146",
+    "symbolNumber": "27102919",
+    "name": "Sarita Yogi",
+    "dateOfBirth": "2062-02-18",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.14,
+    "rank": null
+  },
+  {
+    "sn": 122,
+    "registrationNumber": "817710090147",
+    "symbolNumber": "27102920",
+    "name": "Shital Bk",
+    "dateOfBirth": "2063-04-10",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.17,
+    "rank": null
+  },
+  {
+    "sn": 123,
+    "registrationNumber": "817710090148",
+    "symbolNumber": "27102921",
+    "name": "Shiva Pariyar",
+    "dateOfBirth": "2063-02-25",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.26,
+    "rank": null
+  },
+  {
+    "sn": 124,
+    "registrationNumber": "817710090149",
+    "symbolNumber": "27102922",
+    "name": "Sijan Mahatara",
+    "dateOfBirth": "2064-02-02",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2011,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.84,
+    "rank": null
+  },
+  {
+    "sn": 125,
+    "registrationNumber": "817710090150",
+    "symbolNumber": "27102923",
+    "name": "Soni Sapkota",
+    "dateOfBirth": "2063-11-04",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "A"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "A"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.8,
+    "rank": null
+  },
+  {
+    "sn": 126,
+    "registrationNumber": "817710090151",
+    "symbolNumber": "27102924",
+    "name": "Soniya Daralami",
+    "dateOfBirth": "2061-01-03",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "A"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.49,
+    "rank": null
+  },
+  {
+    "sn": 127,
+    "registrationNumber": "817710090152",
+    "symbolNumber": "27102925",
+    "name": "Srijana Kami",
+    "dateOfBirth": "2064-12-15",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3331,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.2,
+    "rank": null
+  },
+  {
+    "sn": 128,
+    "registrationNumber": "817710090153",
+    "symbolNumber": "27102926",
+    "name": "Suman Khadka",
+    "dateOfBirth": "2065-06-29",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.4,
+    "rank": null
+  },
+  {
+    "sn": 129,
+    "registrationNumber": "817710090154",
+    "symbolNumber": "27102927",
+    "name": "Sushil Uipadhyaya",
+    "dateOfBirth": "2062-10-19",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.85,
+    "rank": null
+  },
+  {
+    "sn": 130,
+    "registrationNumber": "817710090155",
+    "symbolNumber": "27102928",
+    "name": "Swastika Chaudhary",
+    "dateOfBirth": "2064-11-14",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.37,
+    "rank": null
+  },
+  {
+    "sn": 131,
+    "registrationNumber": "817710090156",
+    "symbolNumber": "27102929",
+    "name": "Tapendra Pun",
+    "dateOfBirth": "2061-09-21",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "NG"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "NG"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": null,
+    "rank": null
+  },
+  {
+    "sn": 132,
+    "registrationNumber": "817710090157",
+    "symbolNumber": "27102930",
+    "name": "Tapendra Tiruwa",
+    "dateOfBirth": "2064-04-08",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 71,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1011,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3011,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.69,
+    "rank": null
+  },
+  {
+    "sn": 133,
+    "registrationNumber": "817710090158",
+    "symbolNumber": "27102931",
+    "name": "Tapendra Bahadur Alemagar",
+    "dateOfBirth": "2064-04-05",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.23,
+    "rank": null
+  },
+  {
+    "sn": 134,
+    "registrationNumber": "817710090159",
+    "symbolNumber": "27102932",
+    "name": "Tapendra Prasad Bajgai",
+    "dateOfBirth": "2061-12-15",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "A+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "A"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "A"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "A"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 3.14,
+    "rank": null
+  },
+  {
+    "sn": 135,
+    "registrationNumber": "817710090160",
+    "symbolNumber": "27102933",
+    "name": "Tara Shahi",
+    "dateOfBirth": "2047-08-28",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": null
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": null
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": null
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": null
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": null
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": null,
+    "rank": null
+  },
+  {
+    "sn": 136,
+    "registrationNumber": "817710090161",
+    "symbolNumber": "27102934",
+    "name": "Tek Bahadur Thapa Magar",
+    "dateOfBirth": "2063-11-19",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.48,
+    "rank": null
+  },
+  {
+    "sn": 137,
+    "registrationNumber": "817710090162",
+    "symbolNumber": "27102935",
+    "name": "Tek Raj Shahi",
+    "dateOfBirth": "2063-05-09",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.27,
+    "rank": null
+  },
+  {
+    "sn": 138,
+    "registrationNumber": "817710090163",
+    "symbolNumber": "27102936",
+    "name": "Tilak Bhandari",
+    "dateOfBirth": "2065-09-28",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.19,
+    "rank": null
+  },
+  {
+    "sn": 139,
+    "registrationNumber": "817710090164",
+    "symbolNumber": "27102937",
+    "name": "Tilak Khadka",
+    "dateOfBirth": "2062-06-22",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.27,
+    "rank": null
+  },
+  {
+    "sn": 140,
+    "registrationNumber": "817710090165",
+    "symbolNumber": "17102938",
+    "name": "Umesh Bista",
+    "dateOfBirth": "2063-05-15",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "A"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "A"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 3.06,
+    "rank": null
+  },
+  {
+    "sn": 141,
+    "registrationNumber": "817710090166",
+    "symbolNumber": "27102939",
+    "name": "Upendra Nath",
+    "dateOfBirth": "2063-05-10",
+    "sex": "M",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.01,
+    "rank": null
+  },
+  {
+    "sn": 142,
+    "registrationNumber": "817710090167",
+    "symbolNumber": "27102940",
+    "name": "Urmila Rana",
+    "dateOfBirth": "2062-08-21",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2031,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.18,
+    "rank": null
+  },
+  {
+    "sn": 143,
+    "registrationNumber": "817710090168",
+    "symbolNumber": "27102941",
+    "name": "Urmila Rawal",
+    "dateOfBirth": "2054-07-30",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "C"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "B"
+      },
+      {
+        "name": "Optional II",
+        "code": 2111,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.34,
+    "rank": null
+  },
+  {
+    "sn": 144,
+    "registrationNumber": "817710090169",
+    "symbolNumber": "27102942",
+    "name": "Usha Baduwal",
+    "dateOfBirth": "2063-12-29",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional I",
+        "code": 4431,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional II",
+        "code": 4271,
+        "grade": "B"
+      },
+      {
+        "name": "Optional III",
+        "code": 3311,
+        "grade": "C+"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.52,
+    "rank": null
+  },
+  {
+    "sn": 145,
+    "registrationNumber": "817710090170",
+    "symbolNumber": "27102943",
+    "name": "Usha Khanal",
+    "dateOfBirth": "2063-10-15",
+    "sex": "F",
+    "subjects": [
+      {
+        "name": "Compulsory Nepali",
+        "code": null,
+        "grade": "B+"
+      },
+      {
+        "name": "Compulsory English",
+        "code": null,
+        "grade": "C+"
+      },
+      {
+        "name": "Compulsory Social/Mathematics",
+        "code": 51,
+        "grade": "B"
+      },
+      {
+        "name": "Optional I",
+        "code": 1031,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional II",
+        "code": 2151,
+        "grade": "B+"
+      },
+      {
+        "name": "Optional III",
+        "code": 3031,
+        "grade": "A"
+      },
+      {
+        "name": "Optional IV",
+        "code": null,
+        "grade": null
+      }
+    ],
+    "gpa": 2.91,
+    "rank": null
+  }
+]
