@@ -1498,3 +1498,10 @@ ul{
     background: var(--secondary, #f5a623);
     color: #ffffff;
 }
+@media print {
+    .result-sheet .result-header img {
+        width: 55px !important;
+        height: 55px !important;
+        object-fit: contain;
+    }
+}
