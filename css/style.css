@@ -1505,3 +1505,17 @@ ul{
         object-fit: contain;
     }
 }
+@media print {
+
+    .result-sheet {
+        transform: scale(0.85);
+        transform-origin: top center;
+        width: 117%;
+        margin-left: -8.5%;
+    }
+
+    @page {
+        size: A4;
+        margin: 8mm;
+    }
+}
