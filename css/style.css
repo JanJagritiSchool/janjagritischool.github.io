@@ -1498,24 +1498,95 @@ ul{
     background: var(--secondary, #f5a623);
     color: #ffffff;
 }
+/* PRINT RESULT - ONE A4 PAGE ONLY */
 @media print {
-    .result-sheet .result-header img {
-        width: 55px !important;
-        height: 55px !important;
-        object-fit: contain;
-    }
-}
-@media print {
-
-    .result-sheet {
-        transform: scale(0.85);
-        transform-origin: top center;
-        width: 117%;
-        margin-left: -8.5%;
-    }
 
     @page {
         size: A4;
         margin: 8mm;
+    }
+
+    /* Hide entire website */
+    body * {
+        visibility: hidden;
+    }
+
+    /* Show only result */
+    .result-sheet,
+    .result-sheet * {
+        visibility: visible;
+    }
+
+    .result-sheet {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+        box-shadow: none;
+        border: none;
+        font-size: 11px;
+        line-height: 1.25;
+    }
+
+    /* Small result logo */
+    .result-sheet .result-header img {
+        width: 45px !important;
+        height: 45px !important;
+        object-fit: contain;
+        margin: 0 auto 3px;
+    }
+
+    .result-sheet .result-header h2 {
+        font-size: 18px;
+        margin: 3px 0;
+    }
+
+    .result-sheet .result-header p {
+        font-size: 10px;
+        margin: 2px 0;
+    }
+
+    .result-sheet .result-header h3 {
+        font-size: 14px;
+        margin: 4px 0 8px;
+    }
+
+    .student-information {
+        margin: 5px 0;
+    }
+
+    .student-information div {
+        margin: 2px 0;
+    }
+
+    .result-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 5px;
+    }
+
+    .result-table th,
+    .result-table td {
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    .gpa-box {
+        margin-top: 7px;
+        padding: 5px;
+    }
+
+    /* Don't print search/print controls */
+    .print-area,
+    .result-search-box {
+        display: none !important;
+    }
+
+    /* Keep result together */
+    .result-sheet {
+        break-inside: avoid;
+        page-break-inside: avoid;
     }
 }
