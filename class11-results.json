@@ -1,65 +1,4 @@
 
-
-[
-  {
-    "registration_number": "837710090001",
-    "symbol_number": "17102420",
-    "name": "Alisha Giri",
-    "sex": "F",
-    "dob_bs": "2066-05-09",
-    "dob_ad": "8/25/2009",
-    "gpa": 2.84,
-    "subjects": [
-      {
-        "subject": "English",
-        "code": "0031",
-        "theory_marks": 50,
-        "internal_marks": 23,
-        "theory_grade": "B",
-        "internal_grade": "A+"
-      },
-      {
-        "subject": "Subject 1",
-        "code": "0011",
-        "theory_marks": 45,
-        "internal_marks": 22,
-        "theory_grade": "B",
-        "internal_grade": "A"
-      }
-    ]
-  }
-]
-is this full file
-
-Could you clarify which file or system you are referring to?
-
-If you are trying to view or process a specific document, file, or code snippet, please upload or paste it here so I can check its contents for you.
-
-which I uploaded, convert total in .json file
-
-It looks like you forgot to attach or upload the file!
-
-Please upload your file (such as a CSV, Excel sheet, or text document), and I will process it and convert the total or data into a JSON format for you right away.
-
-I'm having a hard time fulfilling your request. Can I help you with something else instead?
-
-convert that excel file into .json file
-
-The Excel file has been converted into a structured JSON file.
-
-Conversion Details
-Total Records Converted: 157 students
-
-Structure: Each record combines the student metadata (Registration Number, Symbol Number, Name, DOB in BS & AD, Sex, and GPA) with an array of their subject performance breakdown (Theory and Internal marks & grades).
-
-You can download the generated converted_results.json file directly via the link above.
-
-
-
-
-Gemini is AI and can make mistakes.
-
-Analyzing
 [
   {
     "registration_number": "837710090001",
@@ -9092,5 +9031,3 @@ Analyzing
     ]
   }
 ]
-results.json
-Displaying results.json.
